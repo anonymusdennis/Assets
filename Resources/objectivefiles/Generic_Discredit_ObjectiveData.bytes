@@ -1,0 +1,86 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          35.0,
+          52.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          33.0,
+          736.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              44.2960205078125,
+              313.25601196289063
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718595
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.Discredit.Name\",\r\n  \"QuestDescription\": \"Text.Quest.Discredit.Desc\",\r\n  \"ReputationSuccess\": 25,\r\n  \"ReputationCancel\": 5,\r\n  \"ReputationFailure\": 25,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 25,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 72\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              43.83984375,
+              476.0699462890625
+            ]
+          },
+          "NodeID": 3,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.Discredit.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.Discredit.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo\"\r\n    }\r\n  ],\r\n  \"TargetType\": 6,\r\n  \"ItemLocation\": 11,\r\n  \"Random\": true,\r\n  \"Tracked\": false,\r\n  \"ItemGroup\": 180,\r\n  \"Quantity\": 1,\r\n  \"HasDelivererd\": false\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

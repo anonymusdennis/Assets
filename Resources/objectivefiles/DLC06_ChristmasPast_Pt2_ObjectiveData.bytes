@@ -1,0 +1,126 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          258.0,
+          70.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          260.0,
+          782.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToDestroy",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              267.35205078125,
+              318.63201904296875
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718605
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.ChristmasPast.Name\",\r\n  \"QuestDescription\": \"Text.Quest.ChristmasPast.Pt2.Desc\",\r\n  \"ReputationSuccess\": 40,\r\n  \"ReputationCancel\": 40,\r\n  \"ReputationFailure\": 5,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 25,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 96,\r\n  \"CompletionStat\": -1,\r\n  \"ShouldShowQuestArrow\": false,\r\n  \"UsePerObjectiveTitles\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              270.2841796875,
+              518.57763671875
+            ]
+          },
+          "NodeID": 13,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.ChristmasPast.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.ChristmasPast.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo\"\r\n    }\r\n  ],\r\n  \"ItemToCraft\": 1126,\r\n  \"RandomItem\": false,\r\n  \"DeliverTo\": 1,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\",\r\n  \"ResetOnFail\": false,\r\n  \"ResetOnItemsInContraband\": false,\r\n  \"IndexToResetTo\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          40.0,
+          30.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          39.0,
+          529.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              51.64801025390625,
+              191.13601684570313
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718596
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.TheMule.Name\",\r\n  \"QuestDescription\": \"Text.Quest.TheMule.Desc\",\r\n  \"ReputationSuccess\": 20,\r\n  \"ReputationCancel\": 5,\r\n  \"ReputationFailure\": 20,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 10,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 48\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              49.419906616210938,
+              360.58416748046875
+            ]
+          },
+          "NodeID": 4,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.TheMule.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.TheMule.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo\"\r\n    }\r\n  ],\r\n  \"TargetType\": 6,\r\n  \"ItemLocation\": 9,\r\n  \"Random\": true,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [],\r\n  \"ItemGroup\": 230,\r\n  \"Quantity\": 1\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

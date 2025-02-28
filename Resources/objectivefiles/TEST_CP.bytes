@@ -1,0 +1,293 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718616
+        ],
+        "CanvasPosition": [
+          42.0,
+          -19.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          57.0,
+          969.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              70.0,
+              283.28802490234375
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718613
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Part 1\",\r\n  \"DescLocaTag\": \"Destroy Floor Tile\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"Mode\": 2,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 20,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              56.448654174804688,
+              186.82879638671875
+            ]
+          },
+          "NodeID": 8,
+          "LinksToNodes": [
+            4718594
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo\"\r\n    }\r\n  ],\r\n  \"TargetType\": 11,\r\n  \"ItemLocation\": 11,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [\r\n    372\r\n  ],\r\n  \"Quantity\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              72.240020751953125,
+              514.54669189453125
+            ]
+          },
+          "NodeID": 11,
+          "LinksToNodes": [
+            4718605
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Part 2\",\r\n  \"DescLocaTag\": \"Destroy Underground Tile 1\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 19,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              72.09954833984375,
+              623.8663330078125
+            ]
+          },
+          "NodeID": 13,
+          "LinksToNodes": [
+            4718607
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Part 3\",\r\n  \"DescLocaTag\": \"Destroy Underground Tile 2\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 18,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              73.36053466796875,
+              739.83343505859375
+            ]
+          },
+          "NodeID": 15,
+          "LinksToNodes": [
+            4718610
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Part 4\",\r\n  \"DescLocaTag\": \"Place Timber Brace\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"DesiredFunctionality\": 8,\r\n  \"TargetRow\": 18,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              69.897705078125,
+              848.62811279296875
+            ]
+          },
+          "NodeID": 18,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Done!\",\r\n  \"DescLocaTag\": \"All done!\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo\"\r\n    }\r\n  ],\r\n  \"ItemToCraft\": 106,\r\n  \"RandomItem\": false,\r\n  \"DeliverTo\": 0,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\"\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              72.81072998046875,
+              388.61447143554688
+            ]
+          },
+          "NodeID": 21,
+          "LinksToNodes": [
+            4718603
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Report Back\",\r\n  \"DescLocaTag\": \"Return to Robinson\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Well done! Now keep digging.\"\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              52.269943237304688,
+              87.739753723144531
+            ]
+          },
+          "NodeID": 24,
+          "LinksToNodes": [
+            4718600
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"QuestTitle\": \"Text.Quest.Title\",\r\n  \"QuestDescription\": \"Text.Quest.Description\",\r\n  \"ReputationSuccess\": 0,\r\n  \"ReputationCancel\": 0,\r\n  \"ReputationFailure\": 0,\r\n  \"RewardType\": 4,\r\n  \"MoneyReward\": 50,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 999,\r\n  \"CompletionStat\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        }
+      ]
+    }
+  ]
+}

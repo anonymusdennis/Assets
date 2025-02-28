@@ -1,0 +1,774 @@
+{
+  "ObjectiveTrees": [
+    {
+      "SceneToUseIn": "Centre_Perks",
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          279.0,
+          38.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          283.0,
+          3519.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToDestroy",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo1",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo2",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation1",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo1",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              290.40805053710938,
+              204.6240234375
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718613
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title1\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Robinson.Digging.Title1\",\r\n  \"QuestDescription\": \"Text.Robinson.Digging.Desc\",\r\n  \"ReputationSuccess\": 0,\r\n  \"ReputationCancel\": 0,\r\n  \"ReputationFailure\": 0,\r\n  \"RewardType\": 4,\r\n  \"MoneyReward\": 50,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 72,\r\n  \"CompletionStat\": -1,\r\n  \"ShouldShowQuestArrow\": true,\r\n  \"UsePerObjectiveTitles\": true\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "01 Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              293.616455078125,
+              345.08447265625
+            ]
+          },
+          "NodeID": 21,
+          "LinksToNodes": [
+            4718658
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title1\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"SceneInteractObject\": 52,\r\n  \"SceneInteractObject_Scene\": \"Centre_Perks\",\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": true,\r\n  \"InteractionID\": 0,\r\n  \"InteractWithQuestGiver\": false,\r\n  \"QuestGiverMessage\": \"\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "02a Told to read digging note",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "02b Read digging note",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              296.63150024414063,
+              605.0787353515625
+            ]
+          },
+          "NodeID": 23,
+          "LinksToNodes": [
+            4718660
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DestroyItemObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title2\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.ThirdObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToDestroy\": \"$ItemToDestroy\"\r\n    },\r\n    {\r\n      \"$ItemLocation\": \"$ItemLocation\"\r\n    }\r\n  ],\r\n  \"DestroyMethod\": 0,\r\n  \"ItemLocation\": 9,\r\n  \"Random\": false,\r\n  \"ItemTarget\": 363,\r\n  \"ResetOnItemsInContraband\": true,\r\n  \"IndexToResetTo\": 2\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "04a Told to destroy Soil",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "04b Destroyed Soil",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              298.58526611328125,
+              809.85107421875
+            ]
+          },
+          "NodeID": 26,
+          "LinksToNodes": [
+            4718662
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title3\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo\"\r\n    }\r\n  ],\r\n  \"ItemToCraft\": 387,\r\n  \"RandomItem\": false,\r\n  \"DeliverTo\": 1,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\",\r\n  \"ResetOnFail\": true,\r\n  \"ResetOnItemsInContraband\": true,\r\n  \"IndexToResetTo\": 4\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "06a Told to craft Tool Handle",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "06b Crafted Tool Handle",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              300.97128295898438,
+              1128.999755859375
+            ]
+          },
+          "NodeID": 28,
+          "LinksToNodes": [
+            4718623
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title4\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft1\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne1\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo1\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree1\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo1\"\r\n    }\r\n  ],\r\n  \"ItemToCraft\": 196,\r\n  \"RandomItem\": false,\r\n  \"DeliverTo\": 0,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Robinson.Digging.FifthObjective\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\",\r\n  \"ResetOnFail\": true,\r\n  \"ResetOnItemsInContraband\": true,\r\n  \"IndexToResetTo\": 6\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "08a Told to craft Flimsy Shovel",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "08b Crafted Flimsy Shovel",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              300.86941528320313,
+              1301.991943359375
+            ]
+          },
+          "NodeID": 31,
+          "LinksToNodes": [
+            4718663
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.SixthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"TargetHealth\": 20,\r\n  \"TargetRow\": 20,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 1,\r\n  \"MustBeDuringRoutine\": false,\r\n  \"Routine\": -1,\r\n  \"RoutineSubtype\": 0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    196,\r\n    251,\r\n    372,\r\n    286,\r\n    193,\r\n    250,\r\n    371\r\n  ],\r\n  \"ObjectiveToResetTo\": 5\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "09a Told to damage floor tile",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "09b Damaged floor tile",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              302.80340576171875,
+              1599.9549560546875
+            ]
+          },
+          "NodeID": 34,
+          "LinksToNodes": [
+            4718628
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title5\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.SeventeenthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo\"\r\n    }\r\n  ],\r\n  \"TargetType\": 11,\r\n  \"ItemLocation\": 9,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [\r\n    372\r\n  ],\r\n  \"Quantity\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "11a Told to collect Sturdy Shovel",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "11b Collected Sturdy Shovel",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              303.40863037109375,
+              1673.571044921875
+            ]
+          },
+          "NodeID": 36,
+          "LinksToNodes": [
+            4718630
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title5\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.EighthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 20,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 1,\r\n  \"MustBeDuringRoutine\": false,\r\n  \"Routine\": -1,\r\n  \"RoutineSubtype\": 0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    196,\r\n    251,\r\n    372,\r\n    286,\r\n    193,\r\n    250,\r\n    371\r\n  ],\r\n  \"ObjectiveToResetTo\": 9\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "12a Told to dig hole",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "12b Hole dug",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              302.44882202148438,
+              1744.274169921875
+            ]
+          },
+          "NodeID": 38,
+          "LinksToNodes": [
+            4718632
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title5\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.NinthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 20,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 0,\r\n  \"MustBeDuringRoutine\": false,\r\n  \"Routine\": -1,\r\n  \"RoutineSubtype\": 0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    196,\r\n    251,\r\n    372,\r\n    286,\r\n    193,\r\n    250,\r\n    371\r\n  ],\r\n  \"ObjectiveToResetTo\": 9\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "13a Told to destroy underground wall tile 1",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "13b Destroyed underground wall tile 1",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              302.47488403320313,
+              1819.08984375
+            ]
+          },
+          "NodeID": 40,
+          "LinksToNodes": [
+            4718634
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title5\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.NinthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 19,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 0,\r\n  \"MustBeDuringRoutine\": false,\r\n  \"Routine\": -1,\r\n  \"RoutineSubtype\": 0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    196,\r\n    251,\r\n    372,\r\n    286,\r\n    193,\r\n    250,\r\n    371\r\n  ],\r\n  \"ObjectiveToResetTo\": 9\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "14a Told to destroy underground wall tile 2",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "14b Destroyed underground wall tile 2",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              298.84378051757813,
+              1896.5703125
+            ]
+          },
+          "NodeID": 42,
+          "LinksToNodes": [
+            4718666
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title5\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.NinthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 18,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 0,\r\n  \"MustBeDuringRoutine\": false,\r\n  \"Routine\": -1,\r\n  \"RoutineSubtype\": 0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    196,\r\n    251,\r\n    372,\r\n    286,\r\n    193,\r\n    250,\r\n    371\r\n  ],\r\n  \"ObjectiveToResetTo\": 9\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "15a Told to destroy underground wall tile 3",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "15b Destroyed underground wall tile 3",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              298.49081420898438,
+              2236.77783203125
+            ]
+          },
+          "NodeID": 44,
+          "LinksToNodes": [
+            4718638
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title6\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft2\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne2\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo2\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree2\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo2\"\r\n    }\r\n  ],\r\n  \"ItemToCraft\": 384,\r\n  \"RandomItem\": false,\r\n  \"DeliverTo\": 0,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Robinson.Digging.EleventhObjective\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\",\r\n  \"ResetOnFail\": true,\r\n  \"ResetOnItemsInContraband\": true,\r\n  \"IndexToResetTo\": 15\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "17a Told to craft Timber Brace",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "17b Crafted Timber Brace",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              298.91009521484375,
+              2318.240234375
+            ]
+          },
+          "NodeID": 46,
+          "LinksToNodes": [
+            4718668
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title6\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.TwelfthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"DesiredFunctionality\": 8,\r\n  \"TargetRow\": 18,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 0,\r\n  \"MustHaveItemToBeUsed\": true,\r\n  \"ObjectiveToResetTo\": 16,\r\n  \"ItemType\": 384\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "18a Told to place Timber Brace",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "18b Placed Timber Brace",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              300.1817626953125,
+              2631.659912109375
+            ]
+          },
+          "NodeID": 49,
+          "LinksToNodes": [
+            4718643
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title7\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.EighteenthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation1\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet1\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo1\"\r\n    }\r\n  ],\r\n  \"TargetType\": 11,\r\n  \"ItemLocation\": 9,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [\r\n    372,\r\n    177\r\n  ],\r\n  \"Quantity\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "20a Told to collect Sturdy Shovel and Energy Drink",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "20b Collected Sturdy Shovel and Energy Drink",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              298.30181884765625,
+              2703.251953125
+            ]
+          },
+          "NodeID": 51,
+          "LinksToNodes": [
+            4718649
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title7\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.FourteenthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 17,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 0,\r\n  \"MustBeDuringRoutine\": false,\r\n  \"Routine\": -1,\r\n  \"RoutineSubtype\": 0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    196,\r\n    251,\r\n    372,\r\n    286,\r\n    193,\r\n    250,\r\n    371\r\n  ],\r\n  \"ObjectiveToResetTo\": 18\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "21a Told to destroy underground wall tile 4",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "21b Destroyed underground wall tile 4",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              300.49859619140625,
+              2792.477783203125
+            ]
+          },
+          "NodeID": 57,
+          "LinksToNodes": [
+            4718652
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title7\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.FifteenthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"Mode\": 3,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 16,\r\n  \"TargetColumn\": 38,\r\n  \"TargetFloor\": 1,\r\n  \"MustBeDuringRoutine\": false,\r\n  \"Routine\": -1,\r\n  \"RoutineSubtype\": 0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    196,\r\n    251,\r\n    372,\r\n    286,\r\n    193,\r\n    250,\r\n    371\r\n  ],\r\n  \"ObjectiveToResetTo\": 18\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "22a Told to dig exit to tunnel",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "22b Dug exit to tunnel",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              295.91513061523438,
+              3160.06982421875
+            ]
+          },
+          "NodeID": 60,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title7\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.SixteenthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 58,\r\n  \"SceneTrigger_Scene\": \"Centre_Perks\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 5,\r\n  \"Data_Trig_StayTime\": 0.0,\r\n  \"MustHaveCertainItems\": false,\r\n  \"RequiredItems\": [],\r\n  \"ObjectiveToResetTo\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "23a Told to Escape",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "23b Reached escape trigger",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              295.67779541015625,
+              407.146484375
+            ]
+          },
+          "NodeID": 66,
+          "LinksToNodes": [
+            4718615
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title2\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Digging.Part2.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "03a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "03b Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              297.6712646484375,
+              671.5826416015625
+            ]
+          },
+          "NodeID": 68,
+          "LinksToNodes": [
+            4718618
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title3\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Digging.Part3.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "05a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "05b Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              299.07318115234375,
+              942.8475341796875
+            ]
+          },
+          "NodeID": 70,
+          "LinksToNodes": [
+            4718620
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.TalkTo.Objective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Digging.Part4.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "07a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "07b Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              301.19821166992188,
+              1406.5711669921875
+            ]
+          },
+          "NodeID": 71,
+          "LinksToNodes": [
+            4718626
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title5\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Digging.Part5.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "10a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "10b Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              298.09609985351563,
+              1977.731201171875
+            ]
+          },
+          "NodeID": 74,
+          "LinksToNodes": [
+            4718636
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title6\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Digging.Part6.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "16a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "16b Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              298.3577880859375,
+              2399.404052734375
+            ]
+          },
+          "NodeID": 76,
+          "LinksToNodes": [
+            4718641
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Digging.Title7\",\r\n  \"DescLocaTag\": \"Text.Robinson.Digging.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 8,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Digging.Part7.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Digging",
+          "AnalyticsStartLabel": "19a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Digging",
+          "AnalyticsEndLabel": "19b Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        }
+      ]
+    }
+  ]
+}

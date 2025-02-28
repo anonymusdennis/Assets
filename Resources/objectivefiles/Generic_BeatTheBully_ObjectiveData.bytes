@@ -1,0 +1,123 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          33.0,
+          86.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          32.0,
+          690.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$RuckusType",
+          "Type": 3,
+          "TextID": ""
+        },
+        {
+          "Token": "$CombatTarget",
+          "Type": 2,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              43.647994995117188,
+              226.94403076171875
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718595
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.BeatTheBully.Name\",\r\n  \"QuestDescription\": \"Text.Quest.BeatTheBully.Desc\",\r\n  \"ReputationSuccess\": 20,\r\n  \"ReputationCancel\": 5,\r\n  \"ReputationFailure\": 20,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 75,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 72\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              44.419906616210938,
+              371.57977294921875
+            ]
+          },
+          "NodeID": 3,
+          "LinksToNodes": [
+            4718598
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.BeatTheBully.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.BeatTheBully.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo\"\r\n    }\r\n  ],\r\n  \"RandomItem\": true,\r\n  \"ItemGroup\": 176,\r\n  \"DeliverTo\": 0,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\"\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              45.272109985351563,
+              520.24774169921875
+            ]
+          },
+          "NodeID": 6,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CombatObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.BeatTheBully.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.BeatTheBully.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$RuckusType\": \"$RuckusType\"\r\n    },\r\n    {\r\n      \"$CombatTarget\": \"$CombatTarget\"\r\n    }\r\n  ],\r\n  \"CombatTarget\": 2,\r\n  \"CombatType\": 0,\r\n  \"AllowedRoutines\": []\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

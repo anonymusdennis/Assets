@@ -1,0 +1,96 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          543.0,
+          109.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          542.0,
+          725.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              552.6480712890625,
+              346.32000732421875
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718595
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.SportsFan.Name\",\r\n  \"QuestDescription\": \"Text.Quest.SportsFan.Pt3.Desc\",\r\n  \"ReputationSuccess\": 40,\r\n  \"ReputationCancel\": 40,\r\n  \"ReputationFailure\": 5,\r\n  \"RewardType\": -5,\r\n  \"MoneyReward\": 50,\r\n  \"ItemReward\": 370,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 96\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              552.4200439453125,
+              499.45538330078125
+            ]
+          },
+          "NodeID": 3,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.SportsFan.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.SportsFan.ThirdObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo\"\r\n    }\r\n  ],\r\n  \"RandomItem\": false,\r\n  \"ItemToCraft\": 106,\r\n  \"DeliverTo\": 1,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\"\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

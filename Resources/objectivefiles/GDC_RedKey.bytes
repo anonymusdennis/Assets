@@ -1,0 +1,206 @@
+{
+  "ObjectiveTrees": [
+    {
+      "SceneToUseIn": "GDC_Center_Perks",
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718608
+        ],
+        "CanvasPosition": [
+          325.0,
+          25.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          278.0,
+          948.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$VendorTarget",
+          "Type": 2,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne3",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo3",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree3",
+          "Type": 4,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              282.0,
+              289.44802856445313
+            ]
+          },
+          "NodeID": 3,
+          "LinksToNodes": [
+            4718599
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SpawnVendorObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.RedKeyTitle\",\r\n  \"DescLocaTag\": \"Text.Quest.RedKeyObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    },\r\n    {\r\n      \"$VendorTarget\": \"$VendorTarget\"\r\n    }\r\n  ],\r\n  \"Random\": false,\r\n  \"IsObjective\": false,\r\n  \"SpawnsQuestItems\": true,\r\n  \"SceneTarget\": 51,\r\n  \"SceneTarget_Scene\": \"GDC_Center_Perks\",\r\n  \"ItemsNeeded\": [\r\n    313\r\n  ]\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              279.99114990234375,
+              457.67227172851563
+            ]
+          },
+          "NodeID": 7,
+          "LinksToNodes": [
+            4718602,
+            4718611
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InventoryObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.RedKeyTitle\",\r\n  \"DescLocaTag\": \"Text.Quest.RedKeyObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$InventoryItemOne\": \"$InventoryItemOne\"\r\n    },\r\n    {\r\n      \"$InventoryItemTwo\": \"$InventoryItemTwo\"\r\n    },\r\n    {\r\n      \"$InventoryItemThree\": \"$InventoryItemThree\"\r\n    }\r\n  ],\r\n  \"ItemsNeeded\": [\r\n    313\r\n  ],\r\n  \"fail\": false\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              149.7415771484375,
+              637.69140625
+            ]
+          },
+          "NodeID": 10,
+          "LinksToNodes": [
+            4718603
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.RedKeyTitle\",\r\n  \"DescLocaTag\": \"Text.Quest.RedKeyObjectiveA\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 53,\r\n  \"SceneTrigger_Scene\": \"GDC_Center_Perks\",\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              285.95904541015625,
+              812.41998291015625
+            ]
+          },
+          "NodeID": 11,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InventoryObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.RedKeyTitle\",\r\n  \"DescLocaTag\": \"Text.Quest.RedKeyObjectiveA\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$InventoryItemOne\": \"$InventoryItemOne2\"\r\n    },\r\n    {\r\n      \"$InventoryItemTwo\": \"$InventoryItemTwo2\"\r\n    },\r\n    {\r\n      \"$InventoryItemThree\": \"$InventoryItemThree2\"\r\n    }\r\n  ],\r\n  \"ItemsNeeded\": [\r\n    313\r\n  ],\r\n  \"fail\": false\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              282.27203369140625,
+              130.46171569824219
+            ]
+          },
+          "NodeID": 16,
+          "LinksToNodes": [
+            4718595
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"QuestTitle\": \"Text.Quest.RedKeyTitle\",\r\n  \"QuestDescription\": \"Text.Quest.RedKeyDescription\",\r\n  \"ReputationSuccess\": 20,\r\n  \"ReputationCancel\": 20,\r\n  \"ReputationFailure\": 5,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 0,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 72\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              417.79263305664063,
+              641.4798583984375
+            ]
+          },
+          "NodeID": 19,
+          "LinksToNodes": [
+            4718603
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InventoryObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.RedKeyTitle\",\r\n  \"DescLocaTag\": \"Text.Quest.RedKeyObjectiveA\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$InventoryItemOne\": \"$InventoryItemOne3\"\r\n    },\r\n    {\r\n      \"$InventoryItemTwo\": \"$InventoryItemTwo3\"\r\n    },\r\n    {\r\n      \"$InventoryItemThree\": \"$InventoryItemThree3\"\r\n    }\r\n  ],\r\n  \"ItemsNeeded\": [\r\n    313\r\n  ],\r\n  \"fail\": true\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

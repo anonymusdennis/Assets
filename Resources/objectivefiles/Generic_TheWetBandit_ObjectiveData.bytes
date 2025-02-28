@@ -1,0 +1,76 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 7,
+        "LinksToNodes": [
+          4718601
+        ],
+        "CanvasPosition": [
+          73.0,
+          44.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 8,
+        "CanvasPosition": [
+          74.0,
+          503.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$FloodTarget",
+          "Type": 2,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              83.40802001953125,
+              194.5360107421875
+            ]
+          },
+          "NodeID": 9,
+          "LinksToNodes": [
+            4718603
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.TheWetBandit.Name\",\r\n  \"QuestDescription\": \"Text.Quest.TheWetBandit.Desc\",\r\n  \"ReputationSuccess\": 10,\r\n  \"ReputationCancel\": 5,\r\n  \"ReputationFailure\": 10,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 15,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 48\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              84.44842529296875,
+              337.33935546875
+            ]
+          },
+          "NodeID": 11,
+          "LinksToNodes": [
+            4718600
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "FloodToiletObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.TheWetBandit.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.TheWetBandit.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$FloodTarget\": \"$FloodTarget\"\r\n    }\r\n  ],\r\n  \"Random\": true,\r\n  \"AlwaysFloods\": true\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# =============== NetLagSimulation ===============
+#/NetLagSimulationEnabled
+#/NetLagSimulationGuiEnabled
+#/NetLagSimulationLag:330
+#/NetLagSimulationJitter:10
+#/NetLagSimulationLoss:7
+# ================== NetTraffic ==================
+#/NetTrafficEnabled
+#/NetTrafficGuiEnabled
+#/NetTrafficShowTraffic
+#/NetTrafficShowHealth
+# ==================== Misc  ===================
+#/NetConfigRpcTTY
+#/NetDebugGuiPanel

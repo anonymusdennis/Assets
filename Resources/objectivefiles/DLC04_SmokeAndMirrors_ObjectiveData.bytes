@@ -1,0 +1,91 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          469.0,
+          65.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          470.0,
+          787.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToDestroy",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToDestroy1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemLocation1",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              479.35205078125,
+              339.63201904296875
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718599
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.SmokeAndMirrors.Name\",\r\n  \"QuestDescription\": \"Text.Quest.SmokeAndMirrors.Desc\",\r\n  \"ReputationSuccess\": 40,\r\n  \"ReputationCancel\": 40,\r\n  \"ReputationFailure\": 5,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 25,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 96,\r\n  \"CompletionStat\": -1\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              479.5802001953125,
+              516.945556640625
+            ]
+          },
+          "NodeID": 7,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DestroyItemObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.SmokeAndMirrors.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.SmokeAndMirrors.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToDestroy\": \"$ItemToDestroy1\"\r\n    },\r\n    {\r\n      \"$ItemLocation\": \"$ItemLocation1\"\r\n    }\r\n  ],\r\n  \"DestroyMethod\": 0,\r\n  \"ItemLocation\": 10,\r\n  \"Random\": false,\r\n  \"ItemTarget\": 113,\r\n  \"SceneLoc\": 51,\r\n  \"SceneLoc_Scene\": \"DLC04_Prison\"\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "ObjectiveTrees": [
+    {
+      "SceneToUseIn": "Centre_Perks",
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          279.0,
+          38.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          283.0,
+          1703.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo1",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              293.40805053710938,
+              206.6240234375
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718596
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title1\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Robinson.Chipping.Title1\",\r\n  \"QuestDescription\": \"Text.Robinson.Chipping.Desc\",\r\n  \"ReputationSuccess\": 0,\r\n  \"ReputationCancel\": 0,\r\n  \"ReputationFailure\": 0,\r\n  \"RewardType\": 4,\r\n  \"MoneyReward\": 50,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 72,\r\n  \"CompletionStat\": -1,\r\n  \"ShouldShowQuestArrow\": true,\r\n  \"UsePerObjectiveTitles\": true\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "01 Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              289.26446533203125,
+              308.29241943359375
+            ]
+          },
+          "NodeID": 4,
+          "LinksToNodes": [
+            4718613
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title1\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"SceneInteractObject\": 51,\r\n  \"SceneInteractObject_Scene\": \"Centre_Perks\",\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": true,\r\n  \"InteractionID\": 0,\r\n  \"InteractWithQuestGiver\": false,\r\n  \"QuestGiverMessage\": \"\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Chipping",
+          "AnalyticsStartLabel": "02a Told to read chipping note",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "02b Read chipping note",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              291.4674072265625,
+              593.7655029296875
+            ]
+          },
+          "NodeID": 7,
+          "LinksToNodes": [
+            4718617
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title2\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.ThirdObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo\"\r\n    }\r\n  ],\r\n  \"ItemToCraft\": 387,\r\n  \"RandomItem\": false,\r\n  \"DeliverTo\": 1,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\",\r\n  \"ResetOnFail\": true,\r\n  \"ResetOnItemsInContraband\": true,\r\n  \"IndexToResetTo\": 2\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Chipping",
+          "AnalyticsStartLabel": "04a Told to craft Tool Handle",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "04b Crafted Tool Handle",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              294.24691772460938,
+              844.3841552734375
+            ]
+          },
+          "NodeID": 10,
+          "LinksToNodes": [
+            4718604
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title3\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.FifthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft1\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne1\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo1\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree1\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo1\"\r\n    }\r\n  ],\r\n  \"ItemToCraft\": 193,\r\n  \"RandomItem\": false,\r\n  \"DeliverTo\": 0,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Robinson.Chipping.FifthObjective\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\",\r\n  \"ResetOnFail\": true,\r\n  \"ResetOnItemsInContraband\": true,\r\n  \"IndexToResetTo\": 4\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Chipping",
+          "AnalyticsStartLabel": "06a Told to craft Flimsy Pickaxe",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "06b Crafted Flimsy Pickaxe",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              294.45602416992188,
+              990.529052734375
+            ]
+          },
+          "NodeID": 12,
+          "LinksToNodes": [
+            4718615
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title3\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.SixthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 20,\r\n  \"TargetRow\": 77,\r\n  \"TargetColumn\": 9,\r\n  \"TargetFloor\": 1,\r\n  \"MustBeDuringRoutine\": false,\r\n  \"Routine\": -1,\r\n  \"RoutineSubtype\": 0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    193,\r\n    250,\r\n    371\r\n  ],\r\n  \"ObjectiveToResetTo\": 4\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Chipping",
+          "AnalyticsStartLabel": "07a Told to chip wall tile",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "07b Chipped wall tile",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              293.88754272460938,
+              1304.7589111328125
+            ]
+          },
+          "NodeID": 14,
+          "LinksToNodes": [
+            4718608
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.TenthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 6,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo\"\r\n    }\r\n  ],\r\n  \"TargetType\": 11,\r\n  \"ItemLocation\": 9,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [\r\n    342\r\n  ],\r\n  \"Quantity\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Chipping",
+          "AnalyticsStartLabel": "09a Told to collect Screwdriver",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "09b Collected Screwdriver",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              292.87115478515625,
+              1437.5560302734375
+            ]
+          },
+          "NodeID": 16,
+          "LinksToNodes": [
+            4718610
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.EighthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 6,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 77,\r\n  \"TargetColumn\": 9,\r\n  \"TargetFloor\": 1,\r\n  \"MustBeDuringRoutine\": false,\r\n  \"Routine\": -1,\r\n  \"RoutineSubtype\": 0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    196,\r\n    251,\r\n    372,\r\n    193,\r\n    250,\r\n    371,\r\n    286,\r\n    342\r\n  ],\r\n  \"ObjectiveToResetTo\": 7\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Chipping",
+          "AnalyticsStartLabel": "10a Told to destroy wall tile",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "10b Destroyed wall tile",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              293.508544921875,
+              1609.5765380859375
+            ]
+          },
+          "NodeID": 18,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.NinthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 6,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 54,\r\n  \"SceneTrigger_Scene\": \"Centre_Perks\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 5,\r\n  \"Data_Trig_StayTime\": 0.0,\r\n  \"MustHaveCertainItems\": false,\r\n  \"RequiredItems\": [],\r\n  \"ObjectiveToResetTo\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Chipping",
+          "AnalyticsStartLabel": "11a Told to escape",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "11b Reached escape trigger",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              291.27993774414063,
+              403.03497314453125
+            ]
+          },
+          "NodeID": 21,
+          "LinksToNodes": [
+            4718599
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title2\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Chipping.Part2.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Chipping",
+          "AnalyticsStartLabel": "03a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "03b Spoke to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              291.55197143554688,
+              1163.4578857421875
+            ]
+          },
+          "NodeID": 23,
+          "LinksToNodes": [
+            4718606
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 6,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Chipping.Part4.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Chipping",
+          "AnalyticsStartLabel": "08a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "08b Spoke to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              292.685791015625,
+              663.79132080078125
+            ]
+          },
+          "NodeID": 25,
+          "LinksToNodes": [
+            4718602
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Chipping.Title3\",\r\n  \"DescLocaTag\": \"Text.Robinson.Chipping.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Chipping.Part3.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Chipping",
+          "AnalyticsStartLabel": "05a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Chipping",
+          "AnalyticsEndLabel": "05b Spoke to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        }
+      ]
+    }
+  ]
+}

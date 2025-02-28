@@ -1,0 +1,57 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          40.0,
+          30.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          35.0,
+          432.0
+        ]
+      },
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              51.240020751953125,
+              148.99201965332031
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718595
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveDone\": false,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"IsLogable\": false,\r\n  \"QuestTitle\": \"Text.Quest.DemolitionMan.Name\",\r\n  \"QuestDescription\": \"Text.Quest.DemolitionMan.Desc\",\r\n  \"ReputationSuccess\": 20,\r\n  \"ReputationCancel\": 5,\r\n  \"ReputationFailure\": 20,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 40,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              47.09954833984375,
+              290.48284912109375
+            ]
+          },
+          "NodeID": 3,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": []
+        }
+      ]
+    }
+  ]
+}

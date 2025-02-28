@@ -1,0 +1,81 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          418.0,
+          88.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          419.0,
+          676.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToDestroy",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemLocation",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              428.35205078125,
+              315.46405029296875
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718595
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.Freeman\",\r\n  \"QuestDescription\": \"Text.Quest.Freeman.Desc2\",\r\n  \"ReputationSuccess\": 40,\r\n  \"ReputationCancel\": 40,\r\n  \"ReputationFailure\": 5,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 5,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 96\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              428.58013916015625,
+              461.2127685546875
+            ]
+          },
+          "NodeID": 3,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DestroyItemObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.Freeman\",\r\n  \"DescLocaTag\": \"Text.Objective.Freeman.ThirdObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToDestroy\": \"$ItemToDestroy\"\r\n    },\r\n    {\r\n      \"$ItemLocation\": \"$ItemLocation\"\r\n    }\r\n  ],\r\n  \"DestroyMethod\": 0,\r\n  \"Random\": false,\r\n  \"ItemTarget\": 190\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

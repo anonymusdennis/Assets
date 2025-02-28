@@ -1,0 +1,46 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 19,
+        "LinksToNodes": [
+          4718613
+        ],
+        "CanvasPosition": [
+          40.0,
+          30.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 20,
+        "CanvasPosition": [
+          800.0,
+          686.0
+        ],
+        "RewardType": 4,
+        "MoneyReward": 0,
+        "OpinionReward": 0,
+        "ItemReward": 179,
+        "ReceiveTpye": 1
+      },
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              63.52001953125,
+              200.4000244140625
+            ]
+          },
+          "NodeID": 21,
+          "LinksToNodes": [
+            4718612
+          ],
+          "GoalName": "Space Man",
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Oxygen Tank\",\r\n  \"DescLocaTag\": \"Needs that tank \",\r\n  \"IconName\": \"emojione.sprites_60\",\r\n  \"ObjectiveDone\": false,\r\n  \"TargetType\": 0,\r\n  \"ItemLocation\": 4,\r\n  \"Random\": false,\r\n  \"Quantity\": 1\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

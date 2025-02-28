@@ -1,0 +1,176 @@
+{
+  "ObjectiveTrees": [
+    {
+      "SceneToUseIn": "Dictator_Prison",
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          13.0,
+          22.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          479.0,
+          674.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation1",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo1",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              106.176025390625,
+              152.92001342773438
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718603
+          ],
+          "GoalName": "Razerblade for shave",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Parole.Header\",\r\n  \"DescLocaTag\": \"Text.Parole.Body.Inmate wants a razer to shave\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    },\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo\"\r\n    }\r\n  ],\r\n  \"TargetType\": 0,\r\n  \"ItemLocation\": 4,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTarget\": 332,\r\n  \"Quantity\": 1,\r\n  \"HasDelivererd\": false\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              272.714111328125,
+              402.044189453125
+            ]
+          },
+          "NodeID": 5,
+          "LinksToNodes": [
+            4718606
+          ],
+          "GoalName": "Craft manicure Kit",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.ManicureCraft.Header\",\r\n  \"DescLocaTag\": \"Text.ManicureCraft.Body.Find the items and craft a Manicure Kit \",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo\"\r\n    }\r\n  ],\r\n  \"RandomItem\": false,\r\n  \"ItemToCraft\": 272,\r\n  \"DeliverTo\": 0,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\"\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              199.66943359375,
+              278.84371948242188
+            ]
+          },
+          "NodeID": 11,
+          "LinksToNodes": [
+            4718597
+          ],
+          "GoalName": "Collect the Manicure Items",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InventoryObjective_{\r\n  \"NameLocaTag\": \"Text.GetManicureItems.Header\",\r\n  \"DescLocaTag\": \"Text.GetManicureItems.Body.Recover the 3 items\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$InventoryItemOne\": \"$InventoryItemOne\"\r\n    },\r\n    {\r\n      \"$InventoryItemTwo\": \"$InventoryItemTwo\"\r\n    },\r\n    {\r\n      \"$InventoryItemThree\": \"$InventoryItemThree\"\r\n    }\r\n  ],\r\n  \"ItemsNeeded\": [\r\n    190,\r\n    224,\r\n    288\r\n  ],\r\n  \"fail\": false\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              368.49481201171875,
+              543.00469970703125
+            ]
+          },
+          "NodeID": 14,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Get Hammer",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.GetHammer.Header\",\r\n  \"DescLocaTag\": \"Text.GetHammer.Body.Find a Hammer and place it in inmates desk\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation1\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet1\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo1\"\r\n    }\r\n  ],\r\n  \"TargetType\": 6,\r\n  \"ItemLocation\": 5,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTarget\": 193,\r\n  \"Quantity\": 1,\r\n  \"HasDelivererd\": false\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

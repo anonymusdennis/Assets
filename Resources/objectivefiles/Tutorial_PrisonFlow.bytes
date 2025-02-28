@@ -1,0 +1,4227 @@
+{
+  "ObjectiveTrees": [
+    {
+      "SceneToUseIn": "Tutorial_Prison",
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718744
+        ],
+        "CanvasPosition": [
+          570.0,
+          11.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          431.0,
+          8677.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$RuckusType",
+          "Type": 3,
+          "TextID": ""
+        },
+        {
+          "Token": "$CombatTarget",
+          "Type": 2,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation1",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo1",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation2",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo2",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation3",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet3",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo3",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation4",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet4",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo4",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation5",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet5",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo5",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation6",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet6",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo6",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation9",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet9",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo9",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation10",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet10",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo10",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne6",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo6",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree6",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation11",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet11",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo11",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation12",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet12",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo12",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation13",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet13",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo13",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation14",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet14",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo14",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne7",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo7",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree7",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation16",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet16",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo16",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne3",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo3",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree3",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation7",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet7",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo7",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation8",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet8",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo8",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation15",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet15",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo15",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation17",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet17",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo17",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              400.86907958984375,
+              847.220947265625
+            ]
+          },
+          "NodeID": 19,
+          "LinksToNodes": [
+            4718613
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetRoutineObjective_{\r\n  \"NameLocaTag\": \"SET FREETIME (F)\",\r\n  \"DescLocaTag\": \"SET FREETIME (F) DESC\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"Mode\": 0,\r\n  \"Routine\": 2,\r\n  \"RoutineSubtype\": 25,\r\n  \"FreezeTime\": true,\r\n  \"Lockdown\": false,\r\n  \"SendToSolitary\": false,\r\n  \"SetPrisonAlertness\": false,\r\n  \"PrisonAlertness\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              420.131591796875,
+              948.34326171875
+            ]
+          },
+          "NodeID": 21,
+          "LinksToNodes": [
+            4718615,
+            4718641
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveC\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveC\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 58,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 1,\r\n  \"Data_Trig_State\": 1,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 1.0\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Tutorial Funnel",
+          "AnalyticsStartAction": "04a Told to head to roll call",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "04b Reached roll call",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              404.30169677734375,
+              1049.926513671875
+            ]
+          },
+          "NodeID": 23,
+          "LinksToNodes": [
+            4718618
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetRoutineObjective_{\r\n  \"NameLocaTag\": \"SET ROLL CALL\",\r\n  \"DescLocaTag\": \"SET ROLL CALL DESC\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Routine\": 0,\r\n  \"RoutineSubtype\": 5,\r\n  \"FreezeTime\": false,\r\n  \"Lockdown\": false,\r\n  \"SendToSolitary\": false,\r\n  \"SetPrisonAlertness\": false,\r\n  \"PrisonAlertness\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              415.19146728515625,
+              1152.940673828125
+            ]
+          },
+          "NodeID": 26,
+          "LinksToNodes": [
+            4718620
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "WaitUntilTimeObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveD\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveD\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Hours\": 0,\r\n  \"Mins\": 0,\r\n  \"Routine\": 3,\r\n  \"RoutineSubtype\": 35\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              412.12408447265625,
+              1257.857666015625
+            ]
+          },
+          "NodeID": 28,
+          "LinksToNodes": [
+            4718651,
+            4718653
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetRoutineObjective_{\r\n  \"NameLocaTag\": \"SET BREAKFAST (F)\",\r\n  \"DescLocaTag\": \"SET BREAKFAST (F) WAIT\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Routine\": 3,\r\n  \"RoutineSubtype\": 35,\r\n  \"FreezeTime\": true,\r\n  \"Lockdown\": false,\r\n  \"SendToSolitary\": false,\r\n  \"SetPrisonAlertness\": false,\r\n  \"PrisonAlertness\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              395.6563720703125,
+              248.990234375
+            ]
+          },
+          "NodeID": 35,
+          "LinksToNodes": [
+            4718894
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetRoutineObjective_{\r\n  \"NameLocaTag\": \"SET LIGHTSOUT (F)\",\r\n  \"DescLocaTag\": \"SET LIGHTSOUT (F) DESC\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Routine\": 6,\r\n  \"RoutineSubtype\": 65,\r\n  \"FreezeTime\": true,\r\n  \"Lockdown\": false,\r\n  \"SendToSolitary\": false,\r\n  \"SetPrisonAlertness\": false,\r\n  \"PrisonAlertness\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              767.289306640625,
+              506.94647216796875
+            ]
+          },
+          "NodeID": 39,
+          "LinksToNodes": [
+            4718998
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.C\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              790.15118408203125,
+              386.86285400390625
+            ]
+          },
+          "NodeID": 41,
+          "LinksToNodes": [
+            4718631
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.B\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              414.06695556640625,
+              750.2020263671875
+            ]
+          },
+          "NodeID": 45,
+          "LinksToNodes": [
+            4718910
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveB\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveB\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo\"\r\n    }\r\n  ],\r\n  \"ItemToCraft\": 361,\r\n  \"RandomItem\": false,\r\n  \"DeliverTo\": 0,\r\n  \"SpawnItemsToCraft\": false,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Tutorial.ObjectiveB\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\"\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "03 Sockmace Crafted",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              779.7012939453125,
+              850.7767333984375
+            ]
+          },
+          "NodeID": 47,
+          "LinksToNodes": [
+            4718613
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.D\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              792.48748779296875,
+              1124.2366943359375
+            ]
+          },
+          "NodeID": 49,
+          "LinksToNodes": [
+            4718620
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.E\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    7.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              417.0804443359375,
+              1517.8438720703125
+            ]
+          },
+          "NodeID": 53,
+          "LinksToNodes": [
+            4718669
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CombatObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveF\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveF\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$RuckusType\": \"$RuckusType\"\r\n    },\r\n    {\r\n      \"$CombatTarget\": \"$CombatTarget\"\r\n    }\r\n  ],\r\n  \"CombatTarget\": 6,\r\n  \"CombatType\": 0,\r\n  \"CharacterTargetRef\": 53,\r\n  \"CharacterTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"AllowedRoutines\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "06 Beaten up chuck",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              413.1087646484375,
+              1359.3729248046875
+            ]
+          },
+          "NodeID": 59,
+          "LinksToNodes": [
+            4718675
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveE\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveE\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 66,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Tutorial Funnel",
+          "AnalyticsStartAction": "05a Head to combat room",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "05b Reached combat room",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              789.0947265625,
+              1321.8126220703125
+            ]
+          },
+          "NodeID": 61,
+          "LinksToNodes": [
+            4718675
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.F\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              780.7838134765625,
+              1584.924072265625
+            ]
+          },
+          "NodeID": 77,
+          "LinksToNodes": [
+            4719015
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.H\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              404.93505859375,
+              149.26858520507813
+            ]
+          },
+          "NodeID": 81,
+          "LinksToNodes": [
+            4718627
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "WaitUntilTimeObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Hours\": 6,\r\n  \"Mins\": 50,\r\n  \"Routine\": 8,\r\n  \"RoutineSubtype\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              783.3280029296875,
+              1438.8402099609375
+            ]
+          },
+          "NodeID": 83,
+          "LinksToNodes": [
+            4718645,
+            4718887
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.G\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              418.89694213867188,
+              1973.529052734375
+            ]
+          },
+          "NodeID": 90,
+          "LinksToNodes": [
+            4718990,
+            4718686
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveH\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveH\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 65,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Tutorial Funnel",
+          "AnalyticsStartAction": "08a Told to head to storage room",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "08b Reached storage room",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              789.78582763671875,
+              2082.78662109375
+            ]
+          },
+          "NodeID": 94,
+          "LinksToNodes": [
+            4718701
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.I\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              393.1298828125,
+              2266.8837890625
+            ]
+          },
+          "NodeID": 107,
+          "LinksToNodes": [
+            4718705
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveJ\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveJ\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 69,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Tutorial Funnel",
+          "AnalyticsStartAction": "10a Told to head to cell",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "10b Reached cell",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              796.282958984375,
+              2189.541015625
+            ]
+          },
+          "NodeID": 109,
+          "LinksToNodes": [
+            4718699
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.J\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              791.2774658203125,
+              2373.46630859375
+            ]
+          },
+          "NodeID": 113,
+          "LinksToNodes": [
+            4718962,
+            4718979
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.K\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              347.453857421875,
+              2720.649169921875
+            ]
+          },
+          "NodeID": 115,
+          "LinksToNodes": [
+            4718920
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.L\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              506.86761474609375,
+              2601.997314453125
+            ]
+          },
+          "NodeID": 116,
+          "LinksToNodes": [
+            4718917
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveL\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveL\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"DesiredFunctionality\": 14,\r\n  \"TargetRow\": 60,\r\n  \"TargetColumn\": 52,\r\n  \"TargetFloor\": 1,\r\n  \"ItemType\": 114\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "12 Hung bed sheet",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              531.681396484375,
+              2896.47705078125
+            ]
+          },
+          "NodeID": 121,
+          "LinksToNodes": [
+            4718922
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveM\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveM\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 50,\r\n  \"TargetRow\": 57,\r\n  \"TargetColumn\": 51,\r\n  \"TargetFloor\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "13 Used Pickaxe",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              69.24664306640625,
+              3123.002685546875
+            ]
+          },
+          "NodeID": 124,
+          "LinksToNodes": [
+            4718757
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 0,\r\n  \"ToDisable\": 4\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              789.91180419921875,
+              4622.1806640625
+            ]
+          },
+          "NodeID": 129,
+          "LinksToNodes": [
+            4718890,
+            4718995
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.S\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              785.1119384765625,
+              4377.22314453125
+            ]
+          },
+          "NodeID": 133,
+          "LinksToNodes": [
+            4718929
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.R\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              785.59088134765625,
+              5093.677734375
+            ]
+          },
+          "NodeID": 135,
+          "LinksToNodes": [
+            4718877
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.U\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              426.4468994140625,
+              5286.2470703125
+            ]
+          },
+          "NodeID": 136,
+          "LinksToNodes": [
+            4718733
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveV\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveV\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 63,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "21 Entered Vent",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              422.34564208984375,
+              5489.880859375
+            ]
+          },
+          "NodeID": 139,
+          "LinksToNodes": [
+            4718735
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveW\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveW\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"DesiredFunctionality\": 5,\r\n  \"TargetRow\": 58,\r\n  \"TargetColumn\": 70,\r\n  \"TargetFloor\": 2,\r\n  \"ItemType\": 479\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              783.4112548828125,
+              5362.990234375
+            ]
+          },
+          "NodeID": 141,
+          "LinksToNodes": [
+            4718879
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.V\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              423.370361328125,
+              5586.0693359375
+            ]
+          },
+          "NodeID": 143,
+          "LinksToNodes": [
+            4718946
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveX\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveX\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 58,\r\n  \"TargetColumn\": 70,\r\n  \"TargetFloor\": 2\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "22 Destroyed vent exit tile",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              432.51199340820313,
+              5794.21875
+            ]
+          },
+          "NodeID": 144,
+          "LinksToNodes": [
+            4718741
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveY\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveY\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 60,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "23 Entered digging room",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              780.98822021484375,
+              5660.2265625
+            ]
+          },
+          "NodeID": 147,
+          "LinksToNodes": [
+            4718881
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.W\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              422.38778686523438,
+              5902.173828125
+            ]
+          },
+          "NodeID": 149,
+          "LinksToNodes": [
+            4718803
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetRoutineObjective_{\r\n  \"NameLocaTag\": \"SET LOCKDOWN\",\r\n  \"DescLocaTag\": \"SET LOCKDOWN DESC\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Routine\": 8,\r\n  \"RoutineSubtype\": 0,\r\n  \"FreezeTime\": true,\r\n  \"Lockdown\": true,\r\n  \"SendToSolitary\": true,\r\n  \"SetPrisonAlertness\": true,\r\n  \"PrisonAlertness\": 11\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              207.32916259765625,
+              70.1905517578125
+            ]
+          },
+          "NodeID": 152,
+          "LinksToNodes": [
+            4719011
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 0,\r\n  \"ToDisable\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "Tutorial Funnel",
+          "AnalyticsStartAction": "01 Tutorial started",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              46.43511962890625,
+              671.67645263671875
+            ]
+          },
+          "NodeID": 155,
+          "LinksToNodes": [
+            4718908
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 512,\r\n  \"ToDisable\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              52.86639404296875,
+              345.37918090820313
+            ]
+          },
+          "NodeID": 157,
+          "LinksToNodes": [
+            4718899
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 8195,\r\n  \"ToDisable\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              50.365234375,
+              2472.8798828125
+            ]
+          },
+          "NodeID": 163,
+          "LinksToNodes": [
+            4718916
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 4,\r\n  \"ToDisable\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              414.15924072265625,
+              3148.024658203125
+            ]
+          },
+          "NodeID": 165,
+          "LinksToNodes": [
+            4718759
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetRoutineObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Routine\": 1,\r\n  \"RoutineSubtype\": 16,\r\n  \"FreezeTime\": true,\r\n  \"Lockdown\": false,\r\n  \"SendToSolitary\": false,\r\n  \"SetPrisonAlertness\": false,\r\n  \"PrisonAlertness\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              794.45465087890625,
+              3224.390625
+            ]
+          },
+          "NodeID": 167,
+          "LinksToNodes": [
+            4718760
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.M\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              421.2633056640625,
+              3322.257568359375
+            ]
+          },
+          "NodeID": 168,
+          "LinksToNodes": [
+            4718765
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveO\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveO\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneInteractObject\": 64,\r\n  \"SceneInteractObject_Scene\": \"Tutorial_Prison\",\r\n  \"InteractPerson\": 1,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Tutorial Funnel",
+          "AnalyticsStartAction": "14a Told to head to meal hall",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "14b interacted with meal tray",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              420.45355224609375,
+              3430.02197265625
+            ]
+          },
+          "NodeID": 173,
+          "LinksToNodes": [
+            4718913
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveP\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveP\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneInteractObject\": 67,\r\n  \"SceneInteractObject_Scene\": \"Tutorial_Prison\",\r\n  \"InteractPerson\": 1,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "15 Sat in seat",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              424.42718505859375,
+              3711.3984375
+            ]
+          },
+          "NodeID": 184,
+          "LinksToNodes": [
+            4718780,
+            4718788
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveR\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveR\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 69,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Tutorial Funnel",
+          "AnalyticsStartAction": "16a Told to return to cell",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "16b Returned to cell",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              454.09228515625,
+              3916.248779296875
+            ]
+          },
+          "NodeID": 186,
+          "LinksToNodes": [
+            4718786
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveS\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveS\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"DesiredFunctionality\": 3,\r\n  \"TargetRow\": 57,\r\n  \"TargetColumn\": 51,\r\n  \"TargetFloor\": 1,\r\n  \"ItemType\": 480\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              795.5333251953125,
+              3858.26611328125
+            ]
+          },
+          "NodeID": 188,
+          "LinksToNodes": [
+            4718786
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.P\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              413.72332763671875,
+              3601.7021484375
+            ]
+          },
+          "NodeID": 189,
+          "LinksToNodes": [
+            4718776
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetRoutineObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Routine\": 3,\r\n  \"RoutineSubtype\": 36,\r\n  \"FreezeTime\": true,\r\n  \"Lockdown\": false,\r\n  \"SendToSolitary\": false,\r\n  \"SetPrisonAlertness\": false,\r\n  \"PrisonAlertness\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              455.70721435546875,
+              4045.663818359375
+            ]
+          },
+          "NodeID": 194,
+          "LinksToNodes": [
+            4718926,
+            4718793
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveN\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveN\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 57,\r\n  \"TargetColumn\": 51,\r\n  \"TargetFloor\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "17 Wall tile destroyed",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              48.75732421875,
+              3813.778076171875
+            ]
+          },
+          "NodeID": 196,
+          "LinksToNodes": [
+            4718925
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 4,\r\n  \"ToDisable\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              420.5697021484375,
+              4262.91748046875
+            ]
+          },
+          "NodeID": 198,
+          "LinksToNodes": [
+            4718725
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 59,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              788.602783203125,
+              4176.8251953125
+            ]
+          },
+          "NodeID": 201,
+          "LinksToNodes": [
+            4718725
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.Q\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              48.06689453125,
+              4152.841796875
+            ]
+          },
+          "NodeID": 203,
+          "LinksToNodes": [
+            4718790
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 0,\r\n  \"ToDisable\": 4\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              425.40692138671875,
+              4927.56396484375
+            ]
+          },
+          "NodeID": 206,
+          "LinksToNodes": [
+            4718799
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveU\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveU\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 3,\r\n  \"DesiredFunctionality\": 5,\r\n  \"TargetRow\": 58,\r\n  \"TargetColumn\": 49,\r\n  \"TargetFloor\": 2,\r\n  \"ItemType\": 479\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              420.99169921875,
+              5025.32373046875
+            ]
+          },
+          "NodeID": 207,
+          "LinksToNodes": [
+            4718942
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveUA\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveUA\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 58,\r\n  \"TargetColumn\": 49,\r\n  \"TargetFloor\": 2\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "20 Vent cover destroyed",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              46.787353515625,
+              6017.185546875
+            ]
+          },
+          "NodeID": 211,
+          "LinksToNodes": [
+            4718808
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 16384,\r\n  \"ToDisable\": 32\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              802.173583984375,
+              6192.4296875
+            ]
+          },
+          "NodeID": 216,
+          "LinksToNodes": [
+            4718813
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.X\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              421.67254638671875,
+              6420.5595703125
+            ]
+          },
+          "NodeID": 220,
+          "LinksToNodes": [
+            4718819,
+            4718884
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InventoryObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveZ\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveZ\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$InventoryItemOne\": \"$InventoryItemOne6\"\r\n    },\r\n    {\r\n      \"$InventoryItemTwo\": \"$InventoryItemTwo6\"\r\n    },\r\n    {\r\n      \"$InventoryItemThree\": \"$InventoryItemThree6\"\r\n    }\r\n  ],\r\n  \"ItemsNeeded\": [\r\n    481\r\n  ],\r\n  \"fail\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "24 Shovel collected",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              49.55731201171875,
+              6323.20458984375
+            ]
+          },
+          "NodeID": 221,
+          "LinksToNodes": [
+            4718812
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 8,\r\n  \"ToDisable\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              305.84381103515625,
+              6622.0751953125
+            ]
+          },
+          "NodeID": 225,
+          "LinksToNodes": [
+            4718822
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAA\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAA\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"DesiredFunctionality\": 1,\r\n  \"TargetRow\": 56,\r\n  \"TargetColumn\": 69,\r\n  \"TargetFloor\": 1,\r\n  \"ItemType\": 481\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              804.02886962890625,
+              6538.5498046875
+            ]
+          },
+          "NodeID": 227,
+          "LinksToNodes": [
+            4718822
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.Y\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              431.914794921875,
+              6734.18505859375
+            ]
+          },
+          "NodeID": 230,
+          "LinksToNodes": [
+            4718950
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAB\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAB\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 56,\r\n  \"TargetColumn\": 69,\r\n  \"TargetFloor\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "25 Hole dug",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              287.81689453125,
+              7023.5849609375
+            ]
+          },
+          "NodeID": 233,
+          "LinksToNodes": [
+            4718831
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAD\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAD\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"DesiredFunctionality\": 1,\r\n  \"TargetRow\": 56,\r\n  \"TargetColumn\": 69,\r\n  \"TargetFloor\": 0,\r\n  \"ItemType\": 481\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              428.992431640625,
+              6906.486328125
+            ]
+          },
+          "NodeID": 234,
+          "LinksToNodes": [
+            4718830,
+            4718953
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAC\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAC\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 68,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "26 Tunnel Entered",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              803.690673828125,
+              6833.2734375
+            ]
+          },
+          "NodeID": 236,
+          "LinksToNodes": [
+            4718826
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.Z\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              804.64141845703125,
+              7129.5234375
+            ]
+          },
+          "NodeID": 238,
+          "LinksToNodes": [
+            4718837
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.AA\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              432.9791259765625,
+              7136.06005859375
+            ]
+          },
+          "NodeID": 239,
+          "LinksToNodes": [
+            4718836
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAE\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAE\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 56,\r\n  \"TargetColumn\": 69,\r\n  \"TargetFloor\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "27a Tunnel block 1 destroyed",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              438.82366943359375,
+              7797.1318359375
+            ]
+          },
+          "NodeID": 240,
+          "LinksToNodes": [
+            4718851
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAJ\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAJ\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 62,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "28 Reached Carpark",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              291.740478515625,
+              7237.150390625
+            ]
+          },
+          "NodeID": 244,
+          "LinksToNodes": [
+            4718837
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAE\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAE\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"DesiredFunctionality\": 1,\r\n  \"TargetRow\": 55,\r\n  \"TargetColumn\": 69,\r\n  \"TargetFloor\": 0,\r\n  \"ItemType\": 481\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              436.99380493164063,
+              7365.087890625
+            ]
+          },
+          "NodeID": 245,
+          "LinksToNodes": [
+            4718840,
+            4718842
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAE\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAE\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 55,\r\n  \"TargetColumn\": 69,\r\n  \"TargetFloor\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "27b Tunnel block 2 destroyed",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              292.637939453125,
+              7466.2158203125
+            ]
+          },
+          "NodeID": 248,
+          "LinksToNodes": [
+            4718841
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAH\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAH\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 3,\r\n  \"DesiredFunctionality\": 1,\r\n  \"TargetRow\": 55,\r\n  \"TargetColumn\": 69,\r\n  \"TargetFloor\": 1,\r\n  \"ItemType\": 481\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              439.871337890625,
+              7589.2353515625
+            ]
+          },
+          "NodeID": 249,
+          "LinksToNodes": [
+            4718955,
+            4718846
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAI\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAI\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 54,\r\n  \"TargetColumn\": 69,\r\n  \"TargetFloor\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "27c Dug hole up",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              820.26263427734375,
+              7483.7197265625
+            ]
+          },
+          "NodeID": 250,
+          "LinksToNodes": [
+            4718841
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.AB\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              808.55859375,
+              7701.14404296875
+            ]
+          },
+          "NodeID": 254,
+          "LinksToNodes": [
+            4718832
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.AC\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              434.9417724609375,
+              7989.341796875
+            ]
+          },
+          "NodeID": 258,
+          "LinksToNodes": [
+            4718857,
+            4718957
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InventoryObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAK\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAK\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$InventoryItemOne\": \"$InventoryItemOne7\"\r\n    },\r\n    {\r\n      \"$InventoryItemTwo\": \"$InventoryItemTwo7\"\r\n    },\r\n    {\r\n      \"$InventoryItemThree\": \"$InventoryItemThree7\"\r\n    }\r\n  ],\r\n  \"ItemsNeeded\": [\r\n    479\r\n  ],\r\n  \"fail\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "29 Collected cutters",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              817.86529541015625,
+              7907.4384765625
+            ]
+          },
+          "NodeID": 259,
+          "LinksToNodes": [
+            4718850
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.AD\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              312.98028564453125,
+              8137.5302734375
+            ]
+          },
+          "NodeID": 264,
+          "LinksToNodes": [
+            4718858
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAL\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAL\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"DesiredFunctionality\": 4,\r\n  \"TargetRow\": 47,\r\n  \"TargetColumn\": 64,\r\n  \"TargetFloor\": 1,\r\n  \"ItemType\": 479\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              822.02935791015625,
+              8128.7412109375
+            ]
+          },
+          "NodeID": 265,
+          "LinksToNodes": [
+            4718858
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.AE\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              438.29931640625,
+              8243.16796875
+            ]
+          },
+          "NodeID": 266,
+          "LinksToNodes": [
+            4718958
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAM\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAM\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 47,\r\n  \"TargetColumn\": 64,\r\n  \"TargetFloor\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "30 Fence Cut",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              827.842041015625,
+              8380.380859375
+            ]
+          },
+          "NodeID": 270,
+          "LinksToNodes": [
+            4718864
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.AF\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              438.54571533203125,
+              8525.375
+            ]
+          },
+          "NodeID": 272,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveAN\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveAN\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 61,\r\n  \"SceneTrigger_Scene\": \"Tutorial_Prison\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "Tutorial Funnel",
+          "AnalyticsStartAction": "31 Told to walk out of prison",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              789.60394287109375,
+              4861.4873046875
+            ]
+          },
+          "NodeID": 280,
+          "LinksToNodes": [
+            4718875
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.T\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              56.646148681640625,
+              4863.10791015625
+            ]
+          },
+          "NodeID": 283,
+          "LinksToNodes": [
+            4718941
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 4,\r\n  \"ToDisable\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              49.76422119140625,
+              5199.654296875
+            ]
+          },
+          "NodeID": 285,
+          "LinksToNodes": [
+            4718728
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 32,\r\n  \"ToDisable\": 4\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              49.2841796875,
+              5421.2001953125
+            ]
+          },
+          "NodeID": 287,
+          "LinksToNodes": [
+            4718945
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 4,\r\n  \"ToDisable\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              45.1007080078125,
+              5709.54443359375
+            ]
+          },
+          "NodeID": 289,
+          "LinksToNodes": [
+            4718736
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 32,\r\n  \"ToDisable\": 4\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              42.34088134765625,
+              6523.75
+            ]
+          },
+          "NodeID": 292,
+          "LinksToNodes": [
+            4718949
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInputObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 36,\r\n  \"ToDisable\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              974.4017333984375,
+              1761.1575927734375
+            ]
+          },
+          "NodeID": 295,
+          "LinksToNodes": [
+            4718682
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SwapBehaviourObjective_{\r\n  \"NameLocaTag\": \"SWAP MEDIC BEHAVIOUR\",\r\n  \"DescLocaTag\": \"SWAP MEDIC BEHAVIOUR DESC\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"TreeID\": 0,\r\n  \"ResetWhenFinished\": true,\r\n  \"CharacterTargetRef\": 70,\r\n  \"CharacterTargetRef_Scene\": \"Tutorial_Prison\"\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              314.61834716796875,
+              4733.82763671875
+            ]
+          },
+          "NodeID": 298,
+          "LinksToNodes": [
+            4718872
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "MoveDeskObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveTA\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveTA\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"DeskTargetRef\": 71,\r\n  \"DeskTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"TargetRow\": 58,\r\n  \"TargetColumn\": 49,\r\n  \"TargetFloor\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "19 Desk Moved",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              788.3905029296875,
+              272.0660400390625
+            ]
+          },
+          "NodeID": 302,
+          "LinksToNodes": [
+            4718749,
+            4718633
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 1,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.A\"\r\n  ],\r\n  \"Variations\": [\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    7.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              127.954345703125,
+              427.0185546875
+            ]
+          },
+          "NodeID": 307,
+          "LinksToNodes": [
+            4718970
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 1,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    359,\r\n    356\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              572.65155029296875,
+              430.253173828125
+            ]
+          },
+          "NodeID": 314,
+          "LinksToNodes": [
+            4718631
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 1,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              186.20953369140625,
+              749.821533203125
+            ]
+          },
+          "NodeID": 316,
+          "LinksToNodes": [
+            4718637
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 1,\r\n  \"Tutorial\": 1,\r\n  \"Items\": [\r\n    361\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              641.58935546875,
+              751.63275146484375
+            ]
+          },
+          "NodeID": 318,
+          "LinksToNodes": [
+            4718639,
+            4719013
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 1,\r\n  \"Tutorial\": 1,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              792.19659423828125,
+              3513.0537109375
+            ]
+          },
+          "NodeID": 321,
+          "LinksToNodes": [
+            4718781
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialSpeechObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 2,\r\n  \"CancelQueued\": true,\r\n  \"LineCount\": 2,\r\n  \"SpeechText\": [\r\n    \"Text.Tutorial.N\",\r\n    \"Text.Tutorial.O\"\r\n  ],\r\n  \"Variations\": [\r\n    -1,\r\n    -1\r\n  ],\r\n  \"ShowTimes\": [\r\n    7.0,\r\n    0.0\r\n  ],\r\n  \"SpeakTimes\": [\r\n    3.0,\r\n    3.0\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              14.542083740234375,
+              2570.889404296875
+            ]
+          },
+          "NodeID": 324,
+          "LinksToNodes": [
+            4719025
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    114\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              752.6500244140625,
+              2607.282958984375
+            ]
+          },
+          "NodeID": 325,
+          "LinksToNodes": [
+            4718967
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              737.04949951171875,
+              2727.125244140625
+            ]
+          },
+          "NodeID": 328,
+          "LinksToNodes": [
+            4719027
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    480\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              211.677490234375,
+              2851.25146484375
+            ]
+          },
+          "NodeID": 330,
+          "LinksToNodes": [
+            4719028
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              234.67526245117188,
+              3910.56005859375
+            ]
+          },
+          "NodeID": 333,
+          "LinksToNodes": [
+            4718778
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    480\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              243.34075927734375,
+              4048.5869140625
+            ]
+          },
+          "NodeID": 334,
+          "LinksToNodes": [
+            4718795
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              189.95269775390625,
+              4487.59033203125
+            ]
+          },
+          "NodeID": 337,
+          "LinksToNodes": [
+            4718981,
+            4718993
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 1,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    479,\r\n    100\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              652.7127685546875,
+              4489.86083984375
+            ]
+          },
+          "NodeID": 338,
+          "LinksToNodes": [
+            4718721
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 1,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              102.30178833007813,
+              2095.927490234375
+            ]
+          },
+          "NodeID": 341,
+          "LinksToNodes": [
+            4718977
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 1,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    480\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              559.63580322265625,
+              2099.80126953125
+            ]
+          },
+          "NodeID": 342,
+          "LinksToNodes": [
+            4718701
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 1,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              421.70654296875,
+              1642.3026123046875
+            ]
+          },
+          "NodeID": 345,
+          "LinksToNodes": [
+            4718974,
+            4718986
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 1,\r\n  \"Tutorial\": 2,\r\n  \"Items\": [\r\n    160\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              424.34149169921875,
+              1853.673583984375
+            ]
+          },
+          "NodeID": 346,
+          "LinksToNodes": [
+            4719017
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 1,\r\n  \"Tutorial\": 2,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              210.36196899414063,
+              4927.6611328125
+            ]
+          },
+          "NodeID": 349,
+          "LinksToNodes": [
+            4718798
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    479\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              638.00775146484375,
+              5028.1162109375
+            ]
+          },
+          "NodeID": 350,
+          "LinksToNodes": [
+            4718727
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              205.75382995605469,
+              5490.19970703125
+            ]
+          },
+          "NodeID": 353,
+          "LinksToNodes": [
+            4718731
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    479\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              634.619873046875,
+              5587.69921875
+            ]
+          },
+          "NodeID": 354,
+          "LinksToNodes": [
+            4718739
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              82.2379150390625,
+              6618.3125
+            ]
+          },
+          "NodeID": 357,
+          "LinksToNodes": [
+            4718817
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    481\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              653.77996826171875,
+              6738.9052734375
+            ]
+          },
+          "NodeID": 358,
+          "LinksToNodes": [
+            4718828
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              155.11465454101563,
+              6946.54541015625
+            ]
+          },
+          "NodeID": 361,
+          "LinksToNodes": [
+            4718825
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    481\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              170.64935302734375,
+              7670.4677734375
+            ]
+          },
+          "NodeID": 363,
+          "LinksToNodes": [
+            4718832
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              193.45938110351563,
+              8049.0087890625
+            ]
+          },
+          "NodeID": 365,
+          "LinksToNodes": [
+            4718856
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": [\r\n    479\r\n  ]\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              587.41845703125,
+              8315.306640625
+            ]
+          },
+          "NodeID": 366,
+          "LinksToNodes": [
+            4718862
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TutorialGuidedUIObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Location\": 0,\r\n  \"Tutorial\": 0,\r\n  \"Items\": []\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              28.0374755859375,
+              2364.810302734375
+            ]
+          },
+          "NodeID": 370,
+          "LinksToNodes": [
+            4718755
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 74,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 1,\r\n  \"NewState\": true,\r\n  \"RestoreWhenFinished\": true\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              318.181884765625,
+              2475.6728515625
+            ]
+          },
+          "NodeID": 373,
+          "LinksToNodes": [
+            4718755
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InventoryObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveK\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveK\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$InventoryItemOne\": \"$InventoryItemOne3\"\r\n    },\r\n    {\r\n      \"$InventoryItemTwo\": \"$InventoryItemTwo3\"\r\n    },\r\n    {\r\n      \"$InventoryItemThree\": \"$InventoryItemThree3\"\r\n    }\r\n  ],\r\n  \"ItemsNeeded\": [\r\n    114\r\n  ],\r\n  \"fail\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "11 Taken bed sheet",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              30.33306884765625,
+              2676.30810546875
+            ]
+          },
+          "NodeID": 375,
+          "LinksToNodes": [
+            4718707
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 73,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 0,\r\n  \"NewState\": false,\r\n  \"RestoreWhenFinished\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              350.48782348632813,
+              426.99716186523438
+            ]
+          },
+          "NodeID": 378,
+          "LinksToNodes": [
+            4718906
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveA\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveA\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation7\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet7\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo7\"\r\n    }\r\n  ],\r\n  \"TargetType\": 11,\r\n  \"ItemLocation\": 12,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [\r\n    359,\r\n    356\r\n  ],\r\n  \"Quantity\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "02 Collected items from desk",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              274.68218994140625,
+              1748.3133544921875
+            ]
+          },
+          "NodeID": 382,
+          "LinksToNodes": [
+            4718938
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveG\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveG\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation8\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet8\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo8\"\r\n    }\r\n  ],\r\n  \"TargetType\": 11,\r\n  \"ItemLocation\": 10,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [\r\n    160\r\n  ],\r\n  \"Quantity\": 1,\r\n  \"SceneLoc\": 76,\r\n  \"SceneLoc_Scene\": \"Tutorial_Prison\"\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "07 Cyan key retrieved",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              336.83609008789063,
+              2096.3857421875
+            ]
+          },
+          "NodeID": 385,
+          "LinksToNodes": [
+            4718934
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveI\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveI\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation15\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet15\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo15\"\r\n    }\r\n  ],\r\n  \"TargetType\": 11,\r\n  \"ItemLocation\": 10,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [\r\n    480\r\n  ],\r\n  \"Quantity\": 1,\r\n  \"SceneLoc\": 75,\r\n  \"SceneLoc_Scene\": \"Tutorial_Prison\"\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "09 Colleted Pickaxe",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              541.5078125,
+              2479.347412109375
+            ]
+          },
+          "NodeID": 387,
+          "LinksToNodes": [
+            4718965
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveK\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveK\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"SceneInteractObject\": 74,\r\n  \"SceneInteractObject_Scene\": \"Tutorial_Prison\",\r\n  \"InteractPerson\": 1,\r\n  \"IsSpecific\": true,\r\n  \"InteractionID\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              420.47467041015625,
+              4489.2841796875
+            ]
+          },
+          "NodeID": 389,
+          "LinksToNodes": [
+            4718930
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Tutorial.ObjectiveT\",\r\n  \"DescLocaTag\": \"Text.Tutorial.ObjectiveT\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation17\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet17\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo17\"\r\n    }\r\n  ],\r\n  \"TargetType\": 11,\r\n  \"ItemLocation\": 10,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [\r\n    479,\r\n    100\r\n  ],\r\n  \"Quantity\": 1,\r\n  \"SceneLoc\": 71,\r\n  \"SceneLoc_Scene\": \"Tutorial_Prison\"\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Tutorial Funnel",
+          "AnalyticsEndAction": "18 Retrieved items from desk",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              562.20208740234375,
+              1755.91455078125
+            ]
+          },
+          "NodeID": 394,
+          "LinksToNodes": [
+            4718938
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 78,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 1,\r\n  \"NewState\": true,\r\n  \"RestoreWhenFinished\": true\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              183.44561767578125,
+              2024.32421875
+            ]
+          },
+          "NodeID": 398,
+          "LinksToNodes": [
+            4718933
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 77,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 0,\r\n  \"NewState\": true,\r\n  \"RestoreWhenFinished\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              400.096435546875,
+              4575.02685546875
+            ]
+          },
+          "NodeID": 401,
+          "LinksToNodes": [
+            4718930
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 57,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 0,\r\n  \"NewState\": true,\r\n  \"RestoreWhenFinished\": true\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              537.73663330078125,
+              4735.08056640625
+            ]
+          },
+          "NodeID": 403,
+          "LinksToNodes": [
+            4718872
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 57,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 1,\r\n  \"NewState\": true,\r\n  \"RestoreWhenFinished\": true\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              797.836181640625,
+              608.0732421875
+            ]
+          },
+          "NodeID": 406,
+          "LinksToNodes": [
+            4718999
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 81,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 0,\r\n  \"NewState\": false,\r\n  \"RestoreWhenFinished\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              534.083740234375,
+              595.22064208984375
+            ]
+          },
+          "NodeID": 407,
+          "LinksToNodes": [
+            4719000
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 82,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 0,\r\n  \"NewState\": false,\r\n  \"RestoreWhenFinished\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              279.2841796875,
+              581.6121826171875
+            ]
+          },
+          "NodeID": 408,
+          "LinksToNodes": [
+            4719001
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 80,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 0,\r\n  \"NewState\": false,\r\n  \"RestoreWhenFinished\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              28.3179931640625,
+              583.16192626953125
+            ]
+          },
+          "NodeID": 409,
+          "LinksToNodes": [
+            4718747
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 79,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 0,\r\n  \"NewState\": false,\r\n  \"RestoreWhenFinished\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              85.390472412109375,
+              172.0660400390625
+            ]
+          },
+          "NodeID": 419,
+          "LinksToNodes": [
+            4718673
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInGameMenuObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 0,\r\n  \"ToDisable\": 909\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              48.19189453125,
+              838.119873046875
+            ]
+          },
+          "NodeID": 421,
+          "LinksToNodes": [
+            4718611
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInGameMenuObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 1,\r\n  \"ToDisable\": 2\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              43.388671875,
+              1604.96142578125
+            ]
+          },
+          "NodeID": 423,
+          "LinksToNodes": [
+            4718937
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInGameMenuObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 0,\r\n  \"ToDisable\": 64\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              48.2410888671875,
+              1911.7030029296875
+            ]
+          },
+          "NodeID": 425,
+          "LinksToNodes": [
+            4718682
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInGameMenuObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ToEnable\": 64,\r\n  \"ToDisable\": 0\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              27.97052001953125,
+              3018.387939453125
+            ]
+          },
+          "NodeID": 428,
+          "LinksToNodes": [
+            4718716
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "EnableInteractionObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": false,\r\n  \"Tokens\": [],\r\n  \"ObjectTargetRef\": 77,\r\n  \"ObjectTargetRef_Scene\": \"Tutorial_Prison\",\r\n  \"InteractionID\": 0,\r\n  \"NewState\": false,\r\n  \"RestoreWhenFinished\": false\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              260.72869873046875,
+              2578.119873046875
+            ]
+          },
+          "NodeID": 433,
+          "LinksToNodes": [
+            4718708
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetUsableItemObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"UsableItem\": 114\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              544.2879638671875,
+              2803.017333984375
+            ]
+          },
+          "NodeID": 435,
+          "LinksToNodes": [
+            4718713
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetUsableItemObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"UsableItem\": 480\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              71.81268310546875,
+              2937.427978515625
+            ]
+          },
+          "NodeID": 436,
+          "LinksToNodes": [
+            4719020
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetUsableItemObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [],\r\n  \"UsableItem\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        }
+      ]
+    }
+  ]
+}

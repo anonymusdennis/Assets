@@ -1,0 +1,107 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718599
+        ],
+        "CanvasPosition": [
+          40.0,
+          30.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          38.0,
+          637.0
+        ]
+      },
+      "Tokens": [],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              49.552017211914063,
+              477.0240478515625
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 95,\r\n  \"TargetColumn\": 108,\r\n  \"TargetFloor\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              49.026321411132813,
+              256.2724609375
+            ]
+          },
+          "NodeID": 4,
+          "LinksToNodes": [
+            4718594
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"TargetType\": 11,\r\n  \"ItemLocation\": 11,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [\r\n    370\r\n  ],\r\n  \"Quantity\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              50.65728759765625,
+              130.13592529296875
+            ]
+          },
+          "NodeID": 7,
+          "LinksToNodes": [
+            4718596
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"QuestTitle\": \"Text.Quest.Title\",\r\n  \"QuestDescription\": \"Text.Quest.Description\",\r\n  \"ReputationSuccess\": 10,\r\n  \"ReputationCancel\": 10,\r\n  \"ReputationFailure\": 5,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 50,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 72,\r\n  \"CompletionStat\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": false,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "",
+          "AnalyticsEndAction": "",
+          "AnalyticsEndLabel": "",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        }
+      ]
+    }
+  ]
+}

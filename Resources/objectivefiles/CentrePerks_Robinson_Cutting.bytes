@@ -1,0 +1,535 @@
+{
+  "ObjectiveTrees": [
+    {
+      "SceneToUseIn": "Centre_Perks",
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          279.0,
+          38.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          283.0,
+          2362.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo1",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              293.40805053710938,
+              188.6240234375
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718636
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title1\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Robinson.Cutting.Title1\",\r\n  \"QuestDescription\": \"Text.Robinson.Cutting.Desc\",\r\n  \"ReputationSuccess\": 0,\r\n  \"ReputationCancel\": 0,\r\n  \"ReputationFailure\": 0,\r\n  \"RewardType\": 4,\r\n  \"MoneyReward\": 50,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 72,\r\n  \"CompletionStat\": -1,\r\n  \"ShouldShowQuestArrow\": true,\r\n  \"UsePerObjectiveTitles\": true\r\n}"
+          ],
+          "AnalyticsOnStart": false,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "",
+          "AnalyticsStartAction": "",
+          "AnalyticsStartLabel": "",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "01 Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              300.89645385742188,
+              767.31640625
+            ]
+          },
+          "NodeID": 21,
+          "LinksToNodes": [
+            4718615
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title2\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo\"\r\n    }\r\n  ],\r\n  \"ItemToCraft\": 113,\r\n  \"RandomItem\": false,\r\n  \"DeliverTo\": 0,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\",\r\n  \"ResetOnFail\": true,\r\n  \"ResetOnItemsInContraband\": true,\r\n  \"IndexToResetTo\": 2\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "04a Told to craft Bed Dummy",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "04b Crafted bed dummy",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              301.39697265625,
+              860.54901123046875
+            ]
+          },
+          "NodeID": 23,
+          "LinksToNodes": [
+            4718641
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title2\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.FourthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"Mode\": 4,\r\n  \"DesiredFunctionality\": 14,\r\n  \"TargetRow\": -1,\r\n  \"TargetColumn\": -1,\r\n  \"TargetFloor\": -1,\r\n  \"MustHaveItemToBeUsed\": true,\r\n  \"ObjectiveToResetTo\": 2,\r\n  \"ItemType\": 113\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "05a Told to place bed Dummy in bed",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "05b Placed Bed Dummy in bed",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              299.42529296875,
+              1026.94775390625
+            ]
+          },
+          "NodeID": 26,
+          "LinksToNodes": [
+            4718643
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title3\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft1\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne1\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo1\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree1\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo1\"\r\n    }\r\n  ],\r\n  \"ItemToCraft\": 195,\r\n  \"RandomItem\": false,\r\n  \"DeliverTo\": 1,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Robinson.Cutting.FifthObjective\",\r\n  \"DeliverObjectiveText\": \"Text.Robinson.Cutting.FifthteenthObjective\",\r\n  \"ResetOnFail\": true,\r\n  \"ResetOnItemsInContraband\": true,\r\n  \"IndexToResetTo\": 5\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "07a Told to craft Flimsy Cutters",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "07b Crafted Flimsy Cutters",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              298.275634765625,
+              1403.878173828125
+            ]
+          },
+          "NodeID": 28,
+          "LinksToNodes": [
+            4718622
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "WaitUntilTimeObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.SeventhObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Hours\": 0,\r\n  \"Mins\": 0,\r\n  \"Routine\": 0,\r\n  \"RoutineSubtype\": 7,\r\n  \"MustHaveCertainItems\": false,\r\n  \"RequiredItems\": [],\r\n  \"ObjectiveToResetTo\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "09a (Time) Told to wait until evening Roll Call",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "09b (Time) Evening roll call reached",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              298.17864990234375,
+              1500.649169921875
+            ]
+          },
+          "NodeID": 30,
+          "LinksToNodes": [
+            4718654
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.EighthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 56,\r\n  \"SceneTrigger_Scene\": \"Centre_Perks\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 5,\r\n  \"Data_Trig_StayTime\": 0.0,\r\n  \"MustHaveCertainItems\": false,\r\n  \"RequiredItems\": [\r\n    195,\r\n    249,\r\n    370\r\n  ],\r\n  \"ObjectiveToResetTo\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "10a Told to go to Roll call",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "10b Attended Roll Call",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              296.46783447265625,
+              1703.3408203125
+            ]
+          },
+          "NodeID": 32,
+          "LinksToNodes": [
+            4718626
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.TenthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 55,\r\n  \"SceneTrigger_Scene\": \"Centre_Perks\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 5,\r\n  \"Data_Trig_StayTime\": 0.0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    195\r\n  ],\r\n  \"ObjectiveToResetTo\": 10\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "12a Told to head to trigger by fence",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "12b Reached trigger by fence",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              295.35919189453125,
+              1813.9248046875
+            ]
+          },
+          "NodeID": 34,
+          "LinksToNodes": [
+            4718656
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "WaitUntilTimeObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.EleventhObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"Mode\": 1,\r\n  \"Hours\": 0,\r\n  \"Mins\": 0,\r\n  \"Routine\": 6,\r\n  \"RoutineSubtype\": 65,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    195\r\n  ],\r\n  \"ObjectiveToResetTo\": 10\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "13a (Time) Told to wait until Lights Out",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "13b (Time) Lights out reached",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              296.82476806640625,
+              1984.12744140625
+            ]
+          },
+          "NodeID": 36,
+          "LinksToNodes": [
+            4718630
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DamageTileObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.ThirtheenthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"TargetHealth\": 0,\r\n  \"TargetRow\": 110,\r\n  \"TargetColumn\": 90,\r\n  \"TargetFloor\": 1,\r\n  \"MustBeDuringRoutine\": true,\r\n  \"Routine\": 6,\r\n  \"RoutineSubtype\": 65,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    195,\r\n    249,\r\n    370\r\n  ],\r\n  \"ObjectiveToResetTo\": 8\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "15a Told to cut fence tile",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "15b Fence tile cut",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              292.83050537109375,
+              2143.81884765625
+            ]
+          },
+          "NodeID": 38,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.FourteenthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": 14,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 59,\r\n  \"SceneTrigger_Scene\": \"Centre_Perks\",\r\n  \"ArrowMode\": 0,\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 5,\r\n  \"Data_Trig_StayTime\": 0.0,\r\n  \"MustHaveCertainItems\": false,\r\n  \"RequiredItems\": [],\r\n  \"ObjectiveToResetTo\": -1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "16a Told to escape",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "16b Reached escape trigger",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              301.6920166015625,
+              393.14779663085938
+            ]
+          },
+          "NodeID": 44,
+          "LinksToNodes": [
+            4718639
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title1\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"SceneInteractObject\": 53,\r\n  \"SceneInteractObject_Scene\": \"Centre_Perks\",\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": true,\r\n  \"InteractionID\": 0,\r\n  \"InteractWithQuestGiver\": false,\r\n  \"QuestGiverMessage\": \"\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "02a Told to read cutting note",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "02b Read cutting note",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              302.05999755859375,
+              470.0792236328125
+            ]
+          },
+          "NodeID": 47,
+          "LinksToNodes": [
+            4718613
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title2\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Cutting.Part2.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "03a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "03b Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              299.35098266601563,
+              942.05743408203125
+            ]
+          },
+          "NodeID": 49,
+          "LinksToNodes": [
+            4718618
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title3\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Cutting.Part3.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "06a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "06b Spoke to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              297.96469116210938,
+              1098.611328125
+            ]
+          },
+          "NodeID": 51,
+          "LinksToNodes": [
+            4718620
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InteractObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.TalkTo.Objective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"InteractPerson\": 0,\r\n  \"IsSpecific\": false,\r\n  \"InteractionID\": -1,\r\n  \"InteractWithQuestGiver\": true,\r\n  \"QuestGiverMessage\": \"Text.Robinson.Cutting.Part4.Desc\"\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "08a Told to speak to Robinson",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "08b Spoken to Robinson",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              297.33648681640625,
+              1598.892822265625
+            ]
+          },
+          "NodeID": 62,
+          "LinksToNodes": [
+            4718624
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.NinthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": true,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo\"\r\n    }\r\n  ],\r\n  \"TargetType\": 11,\r\n  \"ItemLocation\": 9,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTargets\": [\r\n    195\r\n  ],\r\n  \"Quantity\": 1\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "11a Told to collect Flimsy Cutters",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "11b Collected Flimsy Cutters",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              293.81912231445313,
+              1901.260498046875
+            ]
+          },
+          "NodeID": 64,
+          "LinksToNodes": [
+            4718628
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "WaitUntilTimeObjective_{\r\n  \"NameLocaTag\": \"Text.Robinson.Cutting.Title4\",\r\n  \"DescLocaTag\": \"Text.Robinson.Cutting.TwelfthObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"VerifyPreviousObjectiveIndex\": -1,\r\n  \"Tokens\": [],\r\n  \"Mode\": 0,\r\n  \"Hours\": 23,\r\n  \"Mins\": 45,\r\n  \"Routine\": -1,\r\n  \"RoutineSubtype\": 0,\r\n  \"MustHaveCertainItems\": true,\r\n  \"RequiredItems\": [\r\n    195\r\n  ],\r\n  \"ObjectiveToResetTo\": 8\r\n}"
+          ],
+          "AnalyticsOnStart": true,
+          "AnalyticsOnEnd": true,
+          "AnalyticsStartCategory": "Robinson",
+          "AnalyticsStartAction": "Cutting",
+          "AnalyticsStartLabel": "14a (Time) Told to wait until Return To Cell has ended",
+          "AnalyticsEndCategory": "Robinson",
+          "AnalyticsEndAction": "Cutting",
+          "AnalyticsEndLabel": "14b (Time) Return to Cell ended",
+          "AnalyticsStartedCalled": false,
+          "AnalyticsEndedCalled": false
+        }
+      ]
+    }
+  ]
+}

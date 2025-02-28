@@ -1,0 +1,225 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          40.0,
+          30.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          40.0,
+          730.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo1",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToCraft2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrOne2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrTwo2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$IngrThree2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverTo2",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$Ingr0",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$Ingr1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$Ingr2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$Ingr01",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$Ingr11",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$Ingr21",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$Ingr02",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$Ingr12",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$Ingr22",
+          "Type": 4,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              53.944015502929688,
+              166.20001220703125
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718596
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.Locksmith.Name\",\r\n  \"QuestDescription\": \"Text.Quest.Locksmith.Desc\",\r\n  \"ReputationSuccess\": 25,\r\n  \"ReputationCancel\": 5,\r\n  \"ReputationFailure\": 25,\r\n  \"RewardType\": -5,\r\n  \"MoneyReward\": 25,\r\n  \"ItemReward\": 100,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 72\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              56.259750366210938,
+              301.64962768554688
+            ]
+          },
+          "NodeID": 4,
+          "LinksToNodes": [
+            4718599
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.Locksmith.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.Locksmith.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo\"\r\n    },\r\n    {\r\n      \"$Ingr0\": \"$Ingr0\"\r\n    },\r\n    {\r\n      \"$Ingr1\": \"$Ingr1\"\r\n    },\r\n    {\r\n      \"$Ingr2\": \"$Ingr2\"\r\n    }\r\n  ],\r\n  \"RandomItem\": false,\r\n  \"ItemToCraft\": 399,\r\n  \"DeliverTo\": 0,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\"\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              53.112350463867188,
+              437.49301147460938
+            ]
+          },
+          "NodeID": 7,
+          "LinksToNodes": [
+            4718602
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.Locksmith.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.Locksmith.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft1\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne1\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo1\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree1\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo1\"\r\n    },\r\n    {\r\n      \"$Ingr0\": \"$Ingr01\"\r\n    },\r\n    {\r\n      \"$Ingr1\": \"$Ingr11\"\r\n    },\r\n    {\r\n      \"$Ingr2\": \"$Ingr21\"\r\n    }\r\n  ],\r\n  \"RandomItem\": false,\r\n  \"ItemToCraft\": 282,\r\n  \"DeliverTo\": 0,\r\n  \"SpawnItemsToCraft\": true,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\"\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              54.83282470703125,
+              588.06353759765625
+            ]
+          },
+          "NodeID": 10,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CraftObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.Locksmith.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.Locksmith.ThirdObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToCraft\": \"$ItemToCraft2\"\r\n    },\r\n    {\r\n      \"$IngrOne\": \"$IngrOne2\"\r\n    },\r\n    {\r\n      \"$IngrTwo\": \"$IngrTwo2\"\r\n    },\r\n    {\r\n      \"$IngrThree\": \"$IngrThree2\"\r\n    },\r\n    {\r\n      \"$DeliverTo\": \"$DeliverTo2\"\r\n    },\r\n    {\r\n      \"$Ingr0\": \"$Ingr02\"\r\n    },\r\n    {\r\n      \"$Ingr1\": \"$Ingr12\"\r\n    },\r\n    {\r\n      \"$Ingr2\": \"$Ingr22\"\r\n    }\r\n  ],\r\n  \"RandomItem\": true,\r\n  \"ItemGroup\": 181,\r\n  \"DeliverTo\": 1,\r\n  \"SpawnItemsToCraft\": false,\r\n  \"CollectIngrOneText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrTwoText\": \"Text.Quest.Collect\",\r\n  \"CollectIngrThreeText\": \"Text.Quest.Collect\",\r\n  \"CraftObjectiveText\": \"Text.Quest.Craft\",\r\n  \"DeliverObjectiveText\": \"Text.Quest.Deliver\"\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

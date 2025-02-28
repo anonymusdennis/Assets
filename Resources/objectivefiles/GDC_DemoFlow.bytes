@@ -1,0 +1,315 @@
+{
+  "ObjectiveTrees": [
+    {
+      "SceneToUseIn": "GDC_Center_Perks",
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718628
+        ],
+        "CanvasPosition": [
+          40.0,
+          30.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          373.0,
+          1417.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$VendorTarget",
+          "Type": 2,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$VendorTarget1",
+          "Type": 2,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$VendorTarget2",
+          "Type": 2,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne3",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo3",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree3",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemOne4",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemTwo4",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$InventoryItemThree4",
+          "Type": 4,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              293.96841430664063,
+              367.71649169921875
+            ]
+          },
+          "NodeID": 4,
+          "LinksToNodes": [
+            4718620
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "CompleteQuestObjective_{\r\n  \"NameLocaTag\": \"Wait.For.CompleteQuest1\",\r\n  \"DescLocaTag\": \"Wait.For.CompleteQuest1\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"SceneQuestCharacter\": 52,\r\n  \"SceneQuestCharacter_Scene\": \"GDC_Center_Perks\"\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              156.5950927734375,
+              613.045654296875
+            ]
+          },
+          "NodeID": 28,
+          "LinksToNodes": [
+            4718625
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetObjectiveArrowObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"bCancelArrow\": false,\r\n  \"ArrowTargetX\": 83.5,\r\n  \"ArrowTargetY\": 27.5,\r\n  \"ArrowTargetZ\": 0.0\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              160.6656494140625,
+              783.333740234375
+            ]
+          },
+          "NodeID": 31,
+          "LinksToNodes": [
+            4718631
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetObjectiveArrowObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"bCancelArrow\": false,\r\n  \"ArrowTargetX\": 2.5,\r\n  \"ArrowTargetY\": -16.5,\r\n  \"ArrowTargetZ\": -12.0\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              397.13998413085938,
+              694.819091796875
+            ]
+          },
+          "NodeID": 33,
+          "LinksToNodes": [
+            4718623
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "TriggerObjective_{\r\n  \"NameLocaTag\": \"Go.To.Stairs\",\r\n  \"DescLocaTag\": \"Go.To.Stairs\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"SceneTrigger\": 54,\r\n  \"SceneTrigger_Scene\": \"GDC_Center_Perks\",\r\n  \"Data_Trig_State\": 0,\r\n  \"Data_Trig_PeopleNeeded\": 0,\r\n  \"Data_Trig_StayTime\": 0.0\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              294.3516845703125,
+              59.707534790039063
+            ]
+          },
+          "NodeID": 36,
+          "LinksToNodes": [
+            4718596
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "WaitUntilTimeObjective_{\r\n  \"NameLocaTag\": \"Wait.For.NineAM\",\r\n  \"DescLocaTag\": \"Wait.For.NineAM\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"Hours\": 9,\r\n  \"Mins\": 0\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              405.78338623046875,
+              878.3524169921875
+            ]
+          },
+          "NodeID": 39,
+          "LinksToNodes": [
+            4718633
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InventoryObjective_{\r\n  \"NameLocaTag\": \"Go.To.Rope\",\r\n  \"DescLocaTag\": \"Go.To.Rope\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$InventoryItemOne\": \"$InventoryItemOne3\"\r\n    },\r\n    {\r\n      \"$InventoryItemTwo\": \"$InventoryItemTwo3\"\r\n    },\r\n    {\r\n      \"$InventoryItemThree\": \"$InventoryItemThree3\"\r\n    }\r\n  ],\r\n  \"ItemsNeeded\": [\r\n    459\r\n  ],\r\n  \"fail\": false\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              159.6436767578125,
+              956.20458984375
+            ]
+          },
+          "NodeID": 41,
+          "LinksToNodes": [
+            4718635
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetObjectiveArrowObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"bCancelArrow\": false,\r\n  \"ArrowTargetX\": 2.5,\r\n  \"ArrowTargetY\": -18.5,\r\n  \"ArrowTargetZ\": -12.024999618530273\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              404.68112182617188,
+              1054.07666015625
+            ]
+          },
+          "NodeID": 43,
+          "LinksToNodes": [
+            4718637
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "UseItemObjective_{\r\n  \"NameLocaTag\": \"Wait.For.UseRope\",\r\n  \"DescLocaTag\": \"Wait.For.UseRope\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"DesiredFunctionality\": 11,\r\n  \"TargetRow\": 78,\r\n  \"TargetColumn\": 62,\r\n  \"TargetFloor\": 5,\r\n  \"bUseItemAtPosition\": true\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              141.929443359375,
+              1113.76171875
+            ]
+          },
+          "NodeID": 45,
+          "LinksToNodes": [
+            4718640
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetObjectiveArrowObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"bCancelArrow\": false,\r\n  \"ArrowTargetX\": 8.5,\r\n  \"ArrowTargetY\": -48.5,\r\n  \"ArrowTargetZ\": 0.0\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              395.62628173828125,
+              1222.845703125
+            ]
+          },
+          "NodeID": 48,
+          "LinksToNodes": [
+            4718642
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "InventoryObjective_{\r\n  \"NameLocaTag\": \"Go.To.Hole\",\r\n  \"DescLocaTag\": \"Go.To.Hole\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$InventoryItemOne\": \"$InventoryItemOne4\"\r\n    },\r\n    {\r\n      \"$InventoryItemTwo\": \"$InventoryItemTwo4\"\r\n    },\r\n    {\r\n      \"$InventoryItemThree\": \"$InventoryItemThree4\"\r\n    }\r\n  ],\r\n  \"ItemsNeeded\": [\r\n    372\r\n  ],\r\n  \"fail\": false\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              155.86984252929688,
+              1304.7401123046875
+            ]
+          },
+          "NodeID": 50,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "SetObjectiveArrowObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [],\r\n  \"bCancelArrow\": true,\r\n  \"ArrowTargetX\": 0.0,\r\n  \"ArrowTargetY\": 0.0,\r\n  \"ArrowTargetZ\": 0.0\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

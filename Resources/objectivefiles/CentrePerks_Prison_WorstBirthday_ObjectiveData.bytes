@@ -1,0 +1,150 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 0,
+        "LinksToNodes": [
+          4718594
+        ],
+        "CanvasPosition": [
+          395.0,
+          59.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 1,
+        "CanvasPosition": [
+          387.0,
+          766.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation1",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet1",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo1",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemSpawnLocation2",
+          "Type": 5,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToGet2",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$DeliverItemTo2",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              402.53604125976563,
+              281.5360107421875
+            ]
+          },
+          "NodeID": 2,
+          "LinksToNodes": [
+            4718595
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.WorldsWorstBirthday.Name\",\r\n  \"QuestDescription\": \"Text.Quest.WorldsWorstBirthday.Desc\",\r\n  \"ReputationSuccess\": 40,\r\n  \"ReputationCancel\": 40,\r\n  \"ReputationFailure\": 5,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 25,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 96\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              400.93939208984375,
+              425.09136962890625
+            ]
+          },
+          "NodeID": 3,
+          "LinksToNodes": [
+            4718596
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.WorldsWorstBirthday.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.WorldsWorstBirthday.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo\"\r\n    }\r\n  ],\r\n  \"TargetType\": 2,\r\n  \"ItemLocation\": 11,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTarget\": 247,\r\n  \"Quantity\": 1,\r\n  \"HasDelivererd\": false\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              399.90475463867188,
+              518.115234375
+            ]
+          },
+          "NodeID": 4,
+          "LinksToNodes": [
+            4718597
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.WorldsWorstBirthday.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.WorldsWorstBirthday.SecondObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation1\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet1\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo1\"\r\n    }\r\n  ],\r\n  \"TargetType\": 2,\r\n  \"ItemLocation\": 11,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTarget\": 247,\r\n  \"Quantity\": 1,\r\n  \"HasDelivererd\": false\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              398.88229370117188,
+              625.21075439453125
+            ]
+          },
+          "NodeID": 5,
+          "LinksToNodes": [
+            4718593
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "ItemObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.WorldsWorstBirthday.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.WorldsWorstBirthday.ThirdObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemSpawnLocation\": \"$ItemSpawnLocation2\"\r\n    },\r\n    {\r\n      \"$ItemToGet\": \"$ItemToGet2\"\r\n    },\r\n    {\r\n      \"$DeliverItemTo\": \"$DeliverItemTo2\"\r\n    }\r\n  ],\r\n  \"TargetType\": 2,\r\n  \"ItemLocation\": 11,\r\n  \"Random\": false,\r\n  \"Tracked\": false,\r\n  \"ItemTarget\": 247,\r\n  \"Quantity\": 1,\r\n  \"HasDelivererd\": false\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "ObjectiveTrees": [
+    {
+      "StartNodeData": {
+        "NodeID": 13,
+        "LinksToNodes": [
+          4718607
+        ],
+        "CanvasPosition": [
+          51.0,
+          27.0
+        ]
+      },
+      "EndNodeData": {
+        "NodeID": 14,
+        "CanvasPosition": [
+          46.0,
+          517.0
+        ]
+      },
+      "Tokens": [
+        {
+          "Token": "$Player",
+          "Type": 1,
+          "TextID": ""
+        },
+        {
+          "Token": "$QuestGiver",
+          "Type": 0,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemToDestroy",
+          "Type": 4,
+          "TextID": ""
+        },
+        {
+          "Token": "$ItemLocation",
+          "Type": 5,
+          "TextID": ""
+        }
+      ],
+      "ObjectiveGoals": [
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              59.112030029296875,
+              191.24801635742188
+            ]
+          },
+          "NodeID": 15,
+          "LinksToNodes": [
+            4718611
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "QuestIntroObjective_{\r\n  \"NameLocaTag\": \"Text.Objective.Name\",\r\n  \"DescLocaTag\": \"Text.Objective.Name.Desc\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$Player\": \"$Player\"\r\n    },\r\n    {\r\n      \"$QuestGiver\": \"$QuestGiver\"\r\n    }\r\n  ],\r\n  \"QuestTitle\": \"Text.Quest.WasteManagement.Name\",\r\n  \"QuestDescription\": \"Text.Quest.WasteManagement.Desc\",\r\n  \"ReputationSuccess\": 10,\r\n  \"ReputationCancel\": 10,\r\n  \"ReputationFailure\": 5,\r\n  \"RewardType\": 1,\r\n  \"MoneyReward\": 10,\r\n  \"ItemReward\": -1,\r\n  \"ReceiveTpye\": 0,\r\n  \"CompletionTime\": 48\r\n}"
+          ]
+        },
+        {
+          "EditorData": {
+            "CanvasPosition": [
+              58.0166015625,
+              334.35275268554688
+            ]
+          },
+          "NodeID": 19,
+          "LinksToNodes": [
+            4718606
+          ],
+          "GoalName": "Objective Goal",
+          "ResetOnFail": false,
+          "Objectives": [
+            "DestroyItemObjective_{\r\n  \"NameLocaTag\": \"Text.Quest.WasteManagement.Name\",\r\n  \"DescLocaTag\": \"Text.Quest.WasteManagement.FirstObjective\",\r\n  \"IconName\": \"Empty\",\r\n  \"ObjectiveStatus\": 0,\r\n  \"ResetWhenRetriggered\": false,\r\n  \"ShowInTracker\": true,\r\n  \"Tokens\": [\r\n    {\r\n      \"$ItemToDestroy\": \"$ItemToDestroy\"\r\n    },\r\n    {\r\n      \"$ItemLocation\": \"$ItemLocation\"\r\n    }\r\n  ],\r\n  \"DestroyMethod\": 0,\r\n  \"ItemLocation\": 9,\r\n  \"Random\": true,\r\n  \"ItemGroup\": 230\r\n}"
+          ]
+        }
+      ]
+    }
+  ]
+}
