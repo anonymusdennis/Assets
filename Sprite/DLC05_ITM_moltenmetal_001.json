@@ -1,0 +1,140 @@
+{
+	"m_AtlasName": "",
+	"m_Border": {
+		"m_W": 0,
+		"m_X": 0,
+		"m_Y": 0,
+		"m_Z": 0
+	},
+	"m_CorrespondingSourceObject": { "m_Collection": "resources.assets", "m_PathID": 0 },
+	"m_Extrude": 1,
+	"m_HideFlags": 0,
+	"m_IsPolygon": false,
+	"m_Name": "DLC05_ITM_moltenmetal_001",
+	"m_Offset": {
+		"m_X": -0.49523205,
+		"m_Y": -0.9883316
+	},
+	"m_PackingTag": "",
+	"m_Pivot": {
+		"m_X": 0.49064487,
+		"m_Y": 0.48167148
+	},
+	"m_PixelsToUnits": 100,
+	"m_PrefabInternal": { "m_Collection": "resources.assets", "m_PathID": 0 },
+	"m_RD": {
+		"m_AlphaTexture": { "m_Collection": "resources.assets", "m_PathID": 0 },
+		"m_Indices": [
+			8,
+			7,
+			6,
+			5,
+			6,
+			7,
+			4,
+			6,
+			5,
+			3,
+			4,
+			5,
+			1,
+			4,
+			3,
+			0,
+			1,
+			3,
+			2,
+			1,
+			0
+		],
+		"m_SettingsRaw": 67,
+		"m_Texture": { "m_Collection": "resources.assets", "m_PathID": 861 },
+		"m_TextureRect": {
+			"m_Height": 53.92316,
+			"m_Width": 52.936962,
+			"m_X": 1570.0267,
+			"m_Y": 537.02673
+		},
+		"m_TextureRectOffset": {
+			"m_X": 0,
+			"m_Y": 0
+		},
+		"m_UvTransform": {
+			"m_W": 563,
+			"m_X": 100,
+			"m_Y": 1596,
+			"m_Z": 100
+		},
+		"m_Vertices": [
+			{
+				"m_Pos": {
+					"m_X": 0.25,
+					"m_Y": 0.26,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.27,
+					"m_Y": -0.13,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.27,
+					"m_Y": 0.15,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.19,
+					"m_Y": 0.28,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.08,
+					"m_Y": -0.26,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.14,
+					"m_Y": 0.28,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.19,
+					"m_Y": -0.26,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.26,
+					"m_Y": 0.05,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.26,
+					"m_Y": -0.21,
+					"m_Z": 0
+				}
+			}
+		]
+	},
+	"m_Rect": {
+		"m_Height": 53.92316,
+		"m_Width": 52.936962,
+		"m_X": 1570.0267,
+		"m_Y": 537.02673
+	}
+}

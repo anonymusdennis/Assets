@@ -1,0 +1,130 @@
+{
+	"m_AtlasName": "",
+	"m_Border": {
+		"m_W": 0,
+		"m_X": 0,
+		"m_Y": 0,
+		"m_Z": 0
+	},
+	"m_CorrespondingSourceObject": { "m_Collection": "resources.assets", "m_PathID": 0 },
+	"m_Extrude": 1,
+	"m_HideFlags": 0,
+	"m_IsPolygon": false,
+	"m_Name": "CRFT_MachineReadyShoe_001",
+	"m_Offset": {
+		"m_X": 1.0000021,
+		"m_Y": -0.98771846
+	},
+	"m_PackingTag": "",
+	"m_Pivot": {
+		"m_X": 0.5185369,
+		"m_Y": 0.479389
+	},
+	"m_PixelsToUnits": 50,
+	"m_PrefabInternal": { "m_Collection": "resources.assets", "m_PathID": 0 },
+	"m_RD": {
+		"m_AlphaTexture": { "m_Collection": "resources.assets", "m_PathID": 0 },
+		"m_Indices": [
+			7,
+			6,
+			4,
+			5,
+			4,
+			6,
+			0,
+			4,
+			5,
+			3,
+			4,
+			0,
+			1,
+			3,
+			0,
+			2,
+			1,
+			0
+		],
+		"m_SettingsRaw": 67,
+		"m_Texture": { "m_Collection": "resources.assets", "m_PathID": 861 },
+		"m_TextureRect": {
+			"m_Height": 47.921936,
+			"m_Width": 53.946495,
+			"m_X": 1051.0267,
+			"m_Y": 1259.0267
+		},
+		"m_TextureRectOffset": {
+			"m_X": 0,
+			"m_Y": 0
+		},
+		"m_UvTransform": {
+			"m_W": 1282,
+			"m_X": 50,
+			"m_Y": 1079,
+			"m_Z": 50
+		},
+		"m_Vertices": [
+			{
+				"m_Pos": {
+					"m_X": 0.44,
+					"m_Y": 0.5,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.52,
+					"m_Y": 0.1,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.52,
+					"m_Y": 0.38,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.38,
+					"m_Y": -0.2,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.16,
+					"m_Y": -0.46,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.46,
+					"m_Y": 0.5,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.56,
+					"m_Y": 0.16,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.56,
+					"m_Y": -0.46,
+					"m_Z": 0
+				}
+			}
+		]
+	},
+	"m_Rect": {
+		"m_Height": 47.921936,
+		"m_Width": 53.946495,
+		"m_X": 1051.0267,
+		"m_Y": 1259.0267
+	}
+}

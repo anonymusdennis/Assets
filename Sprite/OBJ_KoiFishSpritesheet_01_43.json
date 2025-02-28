@@ -1,0 +1,120 @@
+{
+	"m_AtlasName": "",
+	"m_Border": {
+		"m_W": 0,
+		"m_X": 0,
+		"m_Y": 0,
+		"m_Z": 0
+	},
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets1.assets", "m_PathID": 0 },
+	"m_Extrude": 1,
+	"m_HideFlags": 0,
+	"m_IsPolygon": false,
+	"m_Name": "OBJ_KoiFishSpritesheet_01_43",
+	"m_Offset": {
+		"m_X": -5.5000052,
+		"m_Y": -3.5044327
+	},
+	"m_PackingTag": "",
+	"m_Pivot": {
+		"m_X": 0.12957336,
+		"m_Y": 0.10988376
+	},
+	"m_PixelsToUnits": 100,
+	"m_PrefabInternal": { "m_Collection": "sharedassets1.assets", "m_PathID": 0 },
+	"m_RD": {
+		"m_AlphaTexture": { "m_Collection": "sharedassets1.assets", "m_PathID": 0 },
+		"m_Indices": [
+			6,
+			5,
+			3,
+			4,
+			3,
+			5,
+			0,
+			3,
+			4,
+			1,
+			3,
+			0,
+			2,
+			1,
+			0
+		],
+		"m_SettingsRaw": 64,
+		"m_Texture": { "m_Collection": "sharedassets1.assets", "m_PathID": 2890 },
+		"m_TextureRect": {
+			"m_Height": 8.9830475,
+			"m_Width": 14.847757,
+			"m_X": 222.07613,
+			"m_Y": 159.01291
+		},
+		"m_TextureRectOffset": {
+			"m_X": 0,
+			"m_Y": 0
+		},
+		"m_UvTransform": {
+			"m_W": 160,
+			"m_X": 100,
+			"m_Y": 224,
+			"m_Z": 100
+		},
+		"m_Vertices": [
+			{
+				"m_Pos": {
+					"m_X": 0.13,
+					"m_Y": 0.08,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.06,
+					"m_Y": -0.01,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.13,
+					"m_Y": 0.04,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.02,
+					"m_Y": -0.01,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.01,
+					"m_Y": 0.08,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.02,
+					"m_Y": 0.04,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.02,
+					"m_Y": 0.02,
+					"m_Z": 0
+				}
+			}
+		]
+	},
+	"m_Rect": {
+		"m_Height": 8.9830475,
+		"m_Width": 14.847757,
+		"m_X": 222.07613,
+		"m_Y": 159.01291
+	}
+}

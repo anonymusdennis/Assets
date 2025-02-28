@@ -1,0 +1,170 @@
+{
+	"m_AtlasName": "",
+	"m_Border": {
+		"m_W": 0,
+		"m_X": 0,
+		"m_Y": 0,
+		"m_Z": 0
+	},
+	"m_CorrespondingSourceObject": { "m_Collection": "resources.assets", "m_PathID": 0 },
+	"m_Extrude": 1,
+	"m_HideFlags": 0,
+	"m_IsPolygon": false,
+	"m_Name": "DLC05_ITM_rivets_001",
+	"m_Offset": {
+		"m_X": 0.9753178,
+		"m_Y": -0.5246834
+	},
+	"m_PackingTag": "",
+	"m_Pivot": {
+		"m_X": 0.5168457,
+		"m_Y": 0.49044243
+	},
+	"m_PixelsToUnits": 100,
+	"m_PrefabInternal": { "m_Collection": "resources.assets", "m_PathID": 0 },
+	"m_RD": {
+		"m_AlphaTexture": { "m_Collection": "resources.assets", "m_PathID": 0 },
+		"m_Indices": [
+			11,
+			10,
+			9,
+			7,
+			9,
+			10,
+			8,
+			9,
+			7,
+			6,
+			8,
+			7,
+			5,
+			6,
+			7,
+			3,
+			6,
+			5,
+			4,
+			3,
+			5,
+			0,
+			3,
+			4,
+			1,
+			3,
+			0,
+			2,
+			1,
+			0
+		],
+		"m_SettingsRaw": 67,
+		"m_Texture": { "m_Collection": "resources.assets", "m_PathID": 861 },
+		"m_TextureRect": {
+			"m_Height": 54.897125,
+			"m_Width": 57.897125,
+			"m_X": 1224.0762,
+			"m_Y": 256.0761
+		},
+		"m_TextureRectOffset": {
+			"m_X": 0,
+			"m_Y": 0
+		},
+		"m_UvTransform": {
+			"m_W": 283,
+			"m_X": 100,
+			"m_Y": 1254,
+			"m_Z": 100
+		},
+		"m_Vertices": [
+			{
+				"m_Pos": {
+					"m_X": 0.28,
+					"m_Y": 0.16,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.22,
+					"m_Y": -0.26,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.28,
+					"m_Y": -0.07,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.21,
+					"m_Y": -0.27,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.17,
+					"m_Y": 0.28,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.1,
+					"m_Y": 0.28,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.13,
+					"m_Y": -0.27,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.16,
+					"m_Y": 0.27,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.22,
+					"m_Y": -0.24,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.27,
+					"m_Y": -0.11,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.3,
+					"m_Y": 0.03,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.3,
+					"m_Y": -0.02,
+					"m_Z": 0
+				}
+			}
+		]
+	},
+	"m_Rect": {
+		"m_Height": 54.897125,
+		"m_Width": 57.897125,
+		"m_X": 1224.0762,
+		"m_Y": 256.0761
+	}
+}

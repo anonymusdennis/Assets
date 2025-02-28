@@ -1,0 +1,130 @@
+{
+	"m_AtlasName": "",
+	"m_Border": {
+		"m_W": 0,
+		"m_X": 0,
+		"m_Y": 0,
+		"m_Z": 0
+	},
+	"m_CorrespondingSourceObject": { "m_Collection": "resources.assets", "m_PathID": 0 },
+	"m_Extrude": 1,
+	"m_HideFlags": 0,
+	"m_IsPolygon": false,
+	"m_Name": "DLC04_ITM_Teeth_001",
+	"m_Offset": {
+		"m_X": 0.5000014,
+		"m_Y": 0.52468795
+	},
+	"m_PackingTag": "",
+	"m_Pivot": {
+		"m_X": 0.5094435,
+		"m_Y": 0.51073045
+	},
+	"m_PixelsToUnits": 100,
+	"m_PrefabInternal": { "m_Collection": "resources.assets", "m_PathID": 0 },
+	"m_RD": {
+		"m_AlphaTexture": { "m_Collection": "resources.assets", "m_PathID": 0 },
+		"m_Indices": [
+			7,
+			6,
+			5,
+			4,
+			5,
+			6,
+			3,
+			5,
+			4,
+			0,
+			3,
+			4,
+			1,
+			3,
+			0,
+			2,
+			1,
+			0
+		],
+		"m_SettingsRaw": 67,
+		"m_Texture": { "m_Collection": "resources.assets", "m_PathID": 861 },
+		"m_TextureRect": {
+			"m_Height": 48.897125,
+			"m_Width": 52.946495,
+			"m_X": 1145.0267,
+			"m_Y": 1043.0267
+		},
+		"m_TextureRectOffset": {
+			"m_X": 0,
+			"m_Y": 0
+		},
+		"m_UvTransform": {
+			"m_W": 1068,
+			"m_X": 100,
+			"m_Y": 1172,
+			"m_Z": 100
+		},
+		"m_Vertices": [
+			{
+				"m_Pos": {
+					"m_X": 0.24,
+					"m_Y": 0.24,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.26,
+					"m_Y": -0.11,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.26,
+					"m_Y": 0.17,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.08,
+					"m_Y": -0.25,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.2,
+					"m_Y": 0.24,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.22,
+					"m_Y": -0.25,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.27,
+					"m_Y": 0.13,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.27,
+					"m_Y": -0.14,
+					"m_Z": 0
+				}
+			}
+		]
+	},
+	"m_Rect": {
+		"m_Height": 48.897125,
+		"m_Width": 52.946495,
+		"m_X": 1145.0267,
+		"m_Y": 1043.0267
+	}
+}

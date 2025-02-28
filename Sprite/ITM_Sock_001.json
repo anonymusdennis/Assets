@@ -1,0 +1,140 @@
+{
+	"m_AtlasName": "",
+	"m_Border": {
+		"m_W": 0,
+		"m_X": 0,
+		"m_Y": 0,
+		"m_Z": 0
+	},
+	"m_CorrespondingSourceObject": { "m_Collection": "resources.assets", "m_PathID": 0 },
+	"m_Extrude": 1,
+	"m_HideFlags": 0,
+	"m_IsPolygon": false,
+	"m_Name": "ITM_Sock_001",
+	"m_Offset": {
+		"m_X": 2.0124006,
+		"m_Y": 0.50000226
+	},
+	"m_PackingTag": "",
+	"m_Pivot": {
+		"m_X": 0.5438694,
+		"m_Y": 0.50981426
+	},
+	"m_PixelsToUnits": 50,
+	"m_PrefabInternal": { "m_Collection": "resources.assets", "m_PathID": 0 },
+	"m_RD": {
+		"m_AlphaTexture": { "m_Collection": "resources.assets", "m_PathID": 0 },
+		"m_Indices": [
+			8,
+			7,
+			6,
+			4,
+			6,
+			7,
+			5,
+			6,
+			4,
+			3,
+			5,
+			4,
+			0,
+			3,
+			4,
+			1,
+			3,
+			0,
+			2,
+			1,
+			0
+		],
+		"m_SettingsRaw": 67,
+		"m_Texture": { "m_Collection": "resources.assets", "m_PathID": 861 },
+		"m_TextureRect": {
+			"m_Height": 50.946495,
+			"m_Width": 45.872562,
+			"m_X": 452.05133,
+			"m_Y": 855.02673
+		},
+		"m_TextureRectOffset": {
+			"m_X": 0,
+			"m_Y": 0
+		},
+		"m_UvTransform": {
+			"m_W": 881,
+			"m_X": 50,
+			"m_Y": 477,
+			"m_Z": 50
+		},
+		"m_Vertices": [
+			{
+				"m_Pos": {
+					"m_X": 0.42,
+					"m_Y": 0.5,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.38,
+					"m_Y": -0.34,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.42,
+					"m_Y": -0.18,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.26,
+					"m_Y": -0.52,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": 0.02,
+					"m_Y": 0.5,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.04,
+					"m_Y": -0.52,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.42,
+					"m_Y": -0.36,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.5,
+					"m_Y": 0.16,
+					"m_Z": 0
+				}
+			},
+			{
+				"m_Pos": {
+					"m_X": -0.5,
+					"m_Y": -0.26,
+					"m_Z": 0
+				}
+			}
+		]
+	},
+	"m_Rect": {
+		"m_Height": 50.946495,
+		"m_Width": 45.872562,
+		"m_X": 452.05133,
+		"m_Y": 855.02673
+	}
+}
